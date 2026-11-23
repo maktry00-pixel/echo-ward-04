@@ -1,0 +1,284 @@
+{
+  "people": [
+    {
+      "id": "FILE_03",
+      "kind": "person",
+      "label": "Мусалимова Гүлсезім",
+      "model": "Business_Female_01",
+      "zone": "E11",
+      "site": "B2",
+      "at": [
+        67,
+        27,
+        -9.6
+      ],
+      "chapter": 1,
+      "amount": 1,
+      "past57": true,
+      "speed57": 72,
+      "range57": 3.2,
+      "wait57": 5,
+      "yaw57": 141
+    },
+    {
+      "id": "FILE_21",
+      "kind": "person",
+      "label": "Шаяхмет Азиз",
+      "model": "Male_Adult_10",
+      "zone": "RH00",
+      "site": "RH",
+      "at": [
+        177,
+        205,
+        0
+      ],
+      "chapter": 11,
+      "amount": 1,
+      "past57": false,
+      "speed57": 58,
+      "range57": 2.0,
+      "wait57": 3,
+      "yaw57": 267
+    },
+    {
+      "id": "FILE_22",
+      "kind": "person",
+      "label": "Кабылова Карина",
+      "model": "Female_Adult_05",
+      "zone": "RH00",
+      "site": "RH",
+      "at": [
+        181,
+        209,
+        0
+      ],
+      "chapter": 11,
+      "amount": 1,
+      "past57": false,
+      "speed57": 38,
+      "range57": 1.2,
+      "wait57": 4,
+      "yaw57": 314
+    },
+    {
+      "id": "FILE_25",
+      "kind": "person",
+      "label": "Жаксымбетова Акбота",
+      "model": "Female_Child_01",
+      "zone": "PS06",
+      "site": "PS",
+      "at": [
+        -74,
+        128,
+        0
+      ],
+      "chapter": 1,
+      "amount": 1,
+      "past57": true,
+      "speed57": 62,
+      "range57": 2.5,
+      "wait57": 2,
+      "yaw57": 95
+    },
+    {
+      "id": "FILE_27",
+      "kind": "person",
+      "label": "Уразов Руслан",
+      "model": "Male_Adult_09",
+      "zone": "DG25",
+      "site": "DG",
+      "at": [
+        -105,
+        55,
+        0
+      ],
+      "chapter": 2,
+      "amount": 1,
+      "past57": true,
+      "speed57": 76,
+      "range57": 3.5,
+      "wait57": 4,
+      "yaw57": 189
+    },
+    {
+      "id": "FILE_28",
+      "kind": "person",
+      "label": "Идырысов Арсен",
+      "model": "Construction_Male_03",
+      "zone": "B107",
+      "site": "B1",
+      "at": [
+        20,
+        54,
+        -4.8
+      ],
+      "chapter": 5,
+      "amount": 1,
+      "past57": true,
+      "speed57": 84,
+      "range57": 3.5,
+      "wait57": 5,
+      "yaw57": 236
+    },
+    {
+      "id": "FILE_29",
+      "kind": "person",
+      "label": "Уразова Аяулым",
+      "model": "Female_Child_02",
+      "zone": "S08",
+      "site": "ST",
+      "at": [
+        -25,
+        -117,
+        0
+      ],
+      "chapter": 1,
+      "amount": 1,
+      "past57": true,
+      "speed57": 61,
+      "range57": 2.5,
+      "wait57": 6,
+      "yaw57": 283
+    },
+    {
+      "id": "FILE_30",
+      "kind": "person",
+      "label": "Сәрсенова Әсел",
+      "model": "Security_Female_01",
+      "zone": "S16",
+      "site": "ST",
+      "at": [
+        99,
+        -41,
+        0
+      ],
+      "chapter": 1,
+      "amount": 1,
+      "past57": false,
+      "speed57": 80,
+      "range57": 3.5,
+      "wait57": 2,
+      "yaw57": 330
+    },
+    {
+      "id": "FILE_31",
+      "kind": "person",
+      "label": "Нұртаев Дәурен",
+      "model": "Medical_Male_05",
+      "zone": "F206",
+      "site": "2F",
+      "at": [
+        63,
+        52,
+        4.8
+      ],
+      "chapter": 3,
+      "amount": 1,
+      "past57": false,
+      "speed57": 68,
+      "range57": 2.5,
+      "wait57": 3,
+      "yaw57": 17
+    },
+    {
+      "id": "FILE_32",
+      "kind": "person",
+      "label": "Төлегенов Нұрсұлтан",
+      "model": "Military_Male_04",
+      "zone": "N02",
+      "site": "1F",
+      "at": [
+        47,
+        -19,
+        0
+      ],
+      "chapter": 14,
+      "amount": 1,
+      "past57": false,
+      "speed57": 83,
+      "range57": 3.2,
+      "wait57": 4,
+      "yaw57": 64
+    },
+    {
+      "id": "FILE_33",
+      "kind": "person",
+      "label": "Әбдірахманов Ержан",
+      "model": "Delivery_Male_01",
+      "zone": "S02",
+      "site": "ST",
+      "at": [
+        74,
+        -17,
+        0
+      ],
+      "chapter": 14,
+      "amount": 1,
+      "past57": false,
+      "speed57": 87,
+      "range57": 4.0,
+      "wait57": 5,
+      "yaw57": 111
+    },
+    {
+      "id": "FILE_34",
+      "kind": "person",
+      "label": "Жұмағұлов Айдос",
+      "model": "Pilot_Male_02",
+      "zone": "T04",
+      "site": "RF",
+      "at": [
+        44,
+        48,
+        14.4
+      ],
+      "chapter": 16,
+      "amount": 1,
+      "past57": false,
+      "speed57": 78,
+      "range57": 4.0,
+      "wait57": 6,
+      "yaw57": 158
+    },
+    {
+      "id": "FILE_35",
+      "kind": "person",
+      "label": "Бекенова Інжу",
+      "model": "Business_Female_04",
+      "zone": "IF11",
+      "site": "IF",
+      "at": [
+        214,
+        26,
+        0
+      ],
+      "chapter": 14,
+      "amount": 1,
+      "past57": false,
+      "speed57": 65,
+      "range57": 2.8,
+      "wait57": 2,
+      "yaw57": 205
+    },
+    {
+      "id": "FILE_36",
+      "kind": "person",
+      "label": "Сапарбек Данияр",
+      "model": "Fire_Male_05",
+      "zone": "S08",
+      "site": "ST",
+      "at": [
+        -28,
+        -115,
+        0
+      ],
+      "chapter": 14,
+      "amount": 1,
+      "past57": false,
+      "speed57": 82,
+      "range57": 4.0,
+      "wait57": 3,
+      "yaw57": 252
+    }
+  ]
+}

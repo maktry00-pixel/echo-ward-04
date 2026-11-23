@@ -1,0 +1,29 @@
+{
+  "id": "linked_02",
+  "species": "linked",
+  "height_cm": 180.0,
+  "vertex_count": 15376,
+  "triangles": 19956,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 34.2,
+  "period": 1.32,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\linked_02\\local\\linked_02.glb",
+  "texture_px": 1024
+}

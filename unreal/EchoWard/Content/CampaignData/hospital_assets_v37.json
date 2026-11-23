@@ -1,0 +1,870 @@
+{
+  "version": 37,
+  "success": true,
+  "assets": [
+    {
+      "id": 3300,
+      "slug": "hospital-bed-flat-mattress-44fc9faf",
+      "title": "Hospital bed flat mattress",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3300.obj",
+      "bounds_cm": [
+        [
+          -110.000015,
+          -50.0,
+          2e-06
+        ],
+        [
+          110.0,
+          50.0,
+          118.055206
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "linen",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/hospital-bed-flat-mattress-44fc9faf",
+      "license": "CC0-1.0",
+      "source_sha256": "b96f7f8876609fc64a2ff9bf34588b601116920b5cbb1516dbb6af356b86b2b4",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3300.SM_H37_3300",
+      "actual_bounds_cm": [
+        [
+          -110.00001525878906,
+          -50.0,
+          1.9999999949504854e-06
+        ],
+        [
+          110.0,
+          50.0,
+          118.05520629882812
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3302,
+      "slug": "patient-transport-stretcher-3ff4d512",
+      "title": "Patient transport stretcher",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3302.obj",
+      "bounds_cm": [
+        [
+          -105.0,
+          -38.500004,
+          -2e-06
+        ],
+        [
+          104.999985,
+          38.5,
+          118.054962
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "linen",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/patient-transport-stretcher-3ff4d512",
+      "license": "CC0-1.0",
+      "source_sha256": "ca074bd7bc3be917a1b4e5e5ecadd0af22475209f977420735ba123d78d8cc67",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3302.SM_H37_3302",
+      "actual_bounds_cm": [
+        [
+          -105.0,
+          -38.5,
+          -1.9999999949504854e-06
+        ],
+        [
+          104.99998474121094,
+          38.500003814697266,
+          118.05496215820312
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3303,
+      "slug": "manual-wheelchair-e5061094",
+      "title": "Manual wheelchair",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3303.obj",
+      "bounds_cm": [
+        [
+          -59.75,
+          -37.300003,
+          0.0
+        ],
+        [
+          59.75,
+          37.300003,
+          102.087105
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "linen",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/manual-wheelchair-e5061094",
+      "license": "CC0-1.0",
+      "source_sha256": "c73804adeef753788f53963cab2f92262e3ccdaadad677d4a8f8fab0c49d4298",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3303.SM_H37_3303",
+      "actual_bounds_cm": [
+        [
+          -59.75,
+          -37.30000305175781,
+          0.0
+        ],
+        [
+          59.75,
+          37.30000305175781,
+          102.08710479736328
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3304,
+      "slug": "patient-bedside-cabinet-19c0b99c",
+      "title": "Patient bedside cabinet",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3304.obj",
+      "bounds_cm": [
+        [
+          -30.638672,
+          -27.627083,
+          0.0
+        ],
+        [
+          30.638672,
+          27.627083,
+          83.25
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/patient-bedside-cabinet-19c0b99c",
+      "license": "CC0-1.0",
+      "source_sha256": "826f4a2fb6964f2d7ea0820e5cd4e4e5ef87abe11feca8cc19a5a72087da8c3b",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3304.SM_H37_3304",
+      "actual_bounds_cm": [
+        [
+          -30.638671875,
+          -27.62708282470703,
+          0.0
+        ],
+        [
+          30.638671875,
+          27.62708282470703,
+          83.25
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 3
+    },
+    {
+      "id": 3305,
+      "slug": "three-shelf-medical-supply-cart-45cc326c",
+      "title": "Three shelf medical supply cart",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3305.obj",
+      "bounds_cm": [
+        [
+          -42.764709,
+          -28.293432,
+          0.0
+        ],
+        [
+          42.764717,
+          28.293434,
+          95.308647
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/three-shelf-medical-supply-cart-45cc326c",
+      "license": "CC0-1.0",
+      "source_sha256": "ecab70adf0e563f62cd27a1baf21380868c0c0e52a5c1b2e93f5873b1a8c02f6",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3305.SM_H37_3305",
+      "actual_bounds_cm": [
+        [
+          -42.76470947265625,
+          -28.293434143066406,
+          0.0
+        ],
+        [
+          42.76471710205078,
+          28.293432235717773,
+          95.30864715576172
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 2
+    },
+    {
+      "id": 3306,
+      "slug": "emergency-crash-cart-7de8001e",
+      "title": "Emergency crash cart",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3306.obj",
+      "bounds_cm": [
+        [
+          -46.25,
+          -30.052633,
+          0.0
+        ],
+        [
+          46.250004,
+          30.052635,
+          110.5
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/emergency-crash-cart-7de8001e",
+      "license": "CC0-1.0",
+      "source_sha256": "108b313ec4b7b8b68485c1637a6ee4a5c84bf289bfd835b705c253e578c2995e",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3306.SM_H37_3306",
+      "actual_bounds_cm": [
+        [
+          -46.25,
+          -30.052635192871094,
+          0.0
+        ],
+        [
+          46.250003814697266,
+          30.05263328552246,
+          110.5
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 3
+    },
+    {
+      "id": 3309,
+      "slug": "patient-room-visitor-recliner-e5b5911b",
+      "title": "Patient room visitor recliner",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3309.obj",
+      "bounds_cm": [
+        [
+          -44.25,
+          -43.139355,
+          0.0
+        ],
+        [
+          44.249996,
+          42.547581,
+          115.848923
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/patient-room-visitor-recliner-e5b5911b",
+      "license": "CC0-1.0",
+      "source_sha256": "eaad93ee833b9e314a0b0f559fb75a6fd2bb11e95874567b8e42e6cffd97337b",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3309.SM_H37_3309",
+      "actual_bounds_cm": [
+        [
+          -44.25,
+          -42.54758071899414,
+          0.0
+        ],
+        [
+          44.249996185302734,
+          43.13935470581055,
+          115.84892272949219
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 2
+    },
+    {
+      "id": 3311,
+      "slug": "clinical-examination-table-abcf7263",
+      "title": "Clinical examination table",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3311.obj",
+      "bounds_cm": [
+        [
+          -89.493141,
+          -48.25,
+          0.0
+        ],
+        [
+          88.48864,
+          48.25,
+          108.843231
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/clinical-examination-table-abcf7263",
+      "license": "CC0-1.0",
+      "source_sha256": "0877da612ccaf7a9a4bcfe9445eafaff8fcd8b2f0fb8252d2333a7ddc7b73a09",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3311.SM_H37_3311",
+      "actual_bounds_cm": [
+        [
+          -89.4931411743164,
+          -48.25,
+          0.0
+        ],
+        [
+          88.48863983154297,
+          48.25,
+          108.84323120117188
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 2
+    },
+    {
+      "id": 3312,
+      "slug": "privacy-curtain-and-ceiling-track-0353bfbc",
+      "title": "Privacy curtain and ceiling track",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3312.obj",
+      "bounds_cm": [
+        [
+          -116.5,
+          -6.583839,
+          0.0
+        ],
+        [
+          116.5,
+          6.583839,
+          234.299988
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "linen"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/privacy-curtain-and-ceiling-track-0353bfbc",
+      "license": "CC0-1.0",
+      "source_sha256": "563b648b94f5f2dc87fa734c22021a1116461ee01733eae359907839ef2d1390",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3312.SM_H37_3312",
+      "actual_bounds_cm": [
+        [
+          -116.5,
+          -6.583838939666748,
+          0.0
+        ],
+        [
+          116.5,
+          6.583838939666748,
+          234.29998779296875
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 3
+    },
+    {
+      "id": 3313,
+      "slug": "lab-bench-with-sink-education-furniture-8f5ca23b",
+      "title": "Lab bench with sink - Education furniture",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3313.obj",
+      "bounds_cm": [
+        [
+          -120.000008,
+          -37.700001,
+          0.0
+        ],
+        [
+          120.0,
+          37.700001,
+          126.487762
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory",
+        "rubber"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/lab-bench-with-sink-education-furniture-8f5ca23b",
+      "license": "CC0-1.0",
+      "source_sha256": "e33ba28c8363edfd7e0a7f9345e0b5c7bbf3dbce3a2bb036036c5e036d780202",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3313.SM_H37_3313",
+      "actual_bounds_cm": [
+        [
+          -120.00000762939453,
+          -37.70000076293945,
+          0.0
+        ],
+        [
+          120.0,
+          37.70000076293945,
+          126.48776245117188
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 3
+    },
+    {
+      "id": 3317,
+      "slug": "window-guard-window-security-grille-f43a326a",
+      "title": "Window Guard - Window Security Grille",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3317.obj",
+      "bounds_cm": [
+        [
+          -59.099998,
+          -4.974999,
+          0.0
+        ],
+        [
+          59.099998,
+          4.975,
+          118.000008
+        ]
+      ],
+      "materials": [
+        "alloy",
+        "ivory"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/window-guard-window-security-grille-f43a326a",
+      "license": "CC0-1.0",
+      "source_sha256": "9ddb190349aeff9d55425e25b99fc12d0437c566c451982a83b989656102630b",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3317.SM_H37_3317",
+      "actual_bounds_cm": [
+        [
+          -59.099998474121094,
+          -4.974999904632568,
+          0.0
+        ],
+        [
+          59.099998474121094,
+          4.974998950958252,
+          118.00000762939453
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 2
+    },
+    {
+      "id": 3321,
+      "slug": "electrical-panel-e216580a",
+      "title": "Electrical panel",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3321.obj",
+      "bounds_cm": [
+        [
+          -22.500002,
+          -7.400003,
+          0.0
+        ],
+        [
+          22.500002,
+          7.400003,
+          65.0
+        ]
+      ],
+      "materials": [
+        "alloy"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/electrical-panel-e216580a",
+      "license": "CC0-1.0",
+      "source_sha256": "2e59541d6c99988514cb52c1b4d4531c1f0ce67a18467d4dec8d4c0c6ee67fdf",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3321.SM_H37_3321",
+      "actual_bounds_cm": [
+        [
+          -22.500001907348633,
+          -7.400002956390381,
+          0.0
+        ],
+        [
+          22.500001907348633,
+          7.400002956390381,
+          65.0
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 1
+    },
+    {
+      "id": 3322,
+      "slug": "rectangular-duct-straight-original-mep-cad-c654d782",
+      "title": "Rectangular duct straight - Original MEP CAD",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3322.obj",
+      "bounds_cm": [
+        [
+          -21.495703,
+          -13.997203,
+          0.0
+        ],
+        [
+          21.495703,
+          13.997203,
+          99.999756
+        ]
+      ],
+      "materials": [
+        "alloy"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/rectangular-duct-straight-original-mep-cad-c654d782",
+      "license": "CC0-1.0",
+      "source_sha256": "69fbfea18f5a5e39de41e6d6ae1da706d038957092f02f948bb5b2f4fb3d4b92",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3322.SM_H37_3322",
+      "actual_bounds_cm": [
+        [
+          -21.495702743530273,
+          -13.99720287322998,
+          0.0
+        ],
+        [
+          21.495702743530273,
+          13.99720287322998,
+          99.999755859375
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 1
+    },
+    {
+      "id": 3324,
+      "slug": "square-supply-diffuser-28a76bd6",
+      "title": "Square supply diffuser",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3324.obj",
+      "bounds_cm": [
+        [
+          -29.750006,
+          -29.750006,
+          0.0
+        ],
+        [
+          29.750006,
+          29.750006,
+          2.8
+        ]
+      ],
+      "materials": [
+        "alloy"
+      ],
+      "source": "https://www.innerscene.com/tools/library/3d-parts/square-supply-diffuser-28a76bd6",
+      "license": "CC0-1.0",
+      "source_sha256": "fb4b1905ce1c48ef2f96141ae84254fa0adff7dde85b555a7be080bd44a2bc4f",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3324.SM_H37_3324",
+      "actual_bounds_cm": [
+        [
+          -29.7500057220459,
+          -29.7500057220459,
+          0.0
+        ],
+        [
+          29.7500057220459,
+          29.7500057220459,
+          2.799999952316284
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 1
+    },
+    {
+      "id": 3345,
+      "slug": "ceiling_damaged",
+      "title": "Echo original ceiling_damaged",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3345.obj",
+      "bounds_cm": [
+        [
+          -151.199997,
+          -151.199997,
+          0.0
+        ],
+        [
+          151.200012,
+          151.199997,
+          77.5
+        ]
+      ],
+      "materials": [
+        "ivory"
+      ],
+      "source": "Original Echo geometry; scanned plaster by Poly Haven",
+      "license": "Project original geometry; CC0 texture derivatives",
+      "source_sha256": "a2b5dd32347dabf76ac6b9655cd5ea69837ee358cb1534dd741e1113783990fe",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3345.SM_H37_3345",
+      "actual_bounds_cm": [
+        [
+          -151.1999969482422,
+          -151.1999969482422,
+          0.0
+        ],
+        [
+          151.20001220703125,
+          151.1999969482422,
+          77.5
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 1
+    },
+    {
+      "id": 3350,
+      "slug": "original_3350",
+      "title": "Complete shower assembly 0.85 x 0.85 x 2.20 m",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3350.obj",
+      "bounds_cm": [
+        [
+          -42.5,
+          -42.5,
+          0.0
+        ],
+        [
+          42.5,
+          42.5,
+          220.0
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "227900c7b23c7c67a919f4475e0783861931d096f1d9f1e7867faa97d0004909",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3350.SM_H37_3350",
+      "actual_bounds_cm": [
+        [
+          -42.5,
+          -42.5,
+          0.0
+        ],
+        [
+          42.5,
+          42.5,
+          220.0
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 3
+    },
+    {
+      "id": 3351,
+      "slug": "original_3351",
+      "title": "Ventilated steel locker 0.45 x 0.555 x 1.85 m",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3351.obj",
+      "bounds_cm": [
+        [
+          -22.5,
+          -27.75,
+          0.0
+        ],
+        [
+          22.5,
+          31.799999,
+          185.0
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "d5d9ec9fef34a7600e5c214d370a76a8874c5863850fb069f70bd9b204d651ae",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3351.SM_H37_3351",
+      "actual_bounds_cm": [
+        [
+          -22.5,
+          -31.799999237060547,
+          0.0
+        ],
+        [
+          22.5,
+          27.75,
+          185.0
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3352,
+      "slug": "original_3352",
+      "title": "Waiting-room coffee table 0.75 x 0.50 x 0.52 m",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3352.obj",
+      "bounds_cm": [
+        [
+          -37.5,
+          -25.0,
+          0.0
+        ],
+        [
+          37.5,
+          25.0,
+          52.0
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "ac5c9542dfc5bbd3e6f105eb77a114babc7f1d5ad74585317ab436b17feab6d4",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3352.SM_H37_3352",
+      "actual_bounds_cm": [
+        [
+          -37.5,
+          -25.0,
+          0.0
+        ],
+        [
+          37.5,
+          25.0,
+          52.0
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3353,
+      "slug": "original_3353",
+      "title": "Roof antenna with mast and transverse elements",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3353.obj",
+      "bounds_cm": [
+        [
+          -60.000004,
+          -1.8,
+          0.0
+        ],
+        [
+          60.000004,
+          1.8,
+          300.0
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "882b7f62e450dcb16e734b19d6dfa18c0e1706f7c8fa0c0759976f4a8e8bfe24",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3353.SM_H37_3353",
+      "actual_bounds_cm": [
+        [
+          -60.000003814697266,
+          -1.7999999523162842,
+          0.0
+        ],
+        [
+          60.000003814697266,
+          1.7999999523162842,
+          300.0
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 1
+    },
+    {
+      "id": 3354,
+      "slug": "original_3354",
+      "title": "Floor autoclave and service base 1.05 x 0.7275 x 1.30 m",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3354.obj",
+      "bounds_cm": [
+        [
+          -52.499996,
+          -36.375,
+          0.0
+        ],
+        [
+          52.499996,
+          42.399998,
+          130.000015
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "eba543530b25dc82430075b2a9f7b73662768c65317c9f5fbd87899f010662e6",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3354.SM_H37_3354",
+      "actual_bounds_cm": [
+        [
+          -52.499996185302734,
+          -42.39999771118164,
+          0.0
+        ],
+        [
+          52.499996185302734,
+          36.375,
+          130.00001525878906
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    },
+    {
+      "id": 3355,
+      "slug": "original_3355",
+      "title": "Rehabilitation pulley station 0.85 x 1.35 x 1.50 m",
+      "file": "D:\\Projects\\ECHO\\unreal\\EchoWard\\RawAssets\\HospitalV37\\H37_3355.obj",
+      "bounds_cm": [
+        [
+          -39.5,
+          -62.500004,
+          2.49999
+        ],
+        [
+          39.5,
+          62.0,
+          148.5
+        ]
+      ],
+      "materials": [
+        "ivory",
+        "alloy",
+        "dark",
+        "rubber",
+        "teal"
+      ],
+      "source": "Project authored: tools/create_hospital_replacements37.py",
+      "license": "Project-authored original",
+      "source_sha256": "251ab567a31b6eae97585bb31df426bf23def3dbaae52306f4ff561d6681b4e7",
+      "asset": "/Game/Campaign/HospitalV37/Meshes/SM_H37_3355.SM_H37_3355",
+      "actual_bounds_cm": [
+        [
+          -39.5,
+          -62.0,
+          2.4999899864196777
+        ],
+        [
+          39.5,
+          62.500003814697266,
+          148.5
+        ]
+      ],
+      "lods": 4,
+      "material_slots": 4
+    }
+  ]
+}

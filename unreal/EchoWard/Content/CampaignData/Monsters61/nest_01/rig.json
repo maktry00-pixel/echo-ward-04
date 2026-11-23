@@ -1,0 +1,17 @@
+{
+  "id": "nest_01",
+  "species": "nest",
+  "height_cm": 280.075,
+  "vertex_count": 25118,
+  "triangles": 21000,
+  "bones": [
+    "section0",
+    "section1",
+    "section2",
+    "section3"
+  ],
+  "stride_cm": 18,
+  "period": 0.63,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\nest_01\\local\\nest_01.glb",
+  "texture_px": 2048
+}

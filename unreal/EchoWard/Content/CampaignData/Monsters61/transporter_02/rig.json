@@ -1,0 +1,29 @@
+{
+  "id": "transporter_02",
+  "species": "transporter",
+  "height_cm": 210.049,
+  "vertex_count": 19677,
+  "triangles": 21000,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 52.512,
+  "period": 1.27,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\transporter_02\\local\\transporter_02.glb",
+  "texture_px": 1024
+}

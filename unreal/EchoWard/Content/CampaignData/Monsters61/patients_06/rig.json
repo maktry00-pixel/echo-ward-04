@@ -1,0 +1,29 @@
+{
+  "id": "patients_06",
+  "species": "patients",
+  "height_cm": 171.992,
+  "vertex_count": 21769,
+  "triangles": 21000,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 39.558,
+  "period": 1.2,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\patients_06\\local_profile\\patients_06.glb",
+  "texture_px": 1024
+}

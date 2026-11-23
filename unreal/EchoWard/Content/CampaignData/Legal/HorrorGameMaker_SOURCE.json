@@ -1,0 +1,10 @@
+{
+  "source": "https://opengameart.org/content/3d-horror-game-monster",
+  "author": "City Building Game Art / HorrorGameMaker.com",
+  "license": "CC0-1.0",
+  "changes": "Unreal materials, 60fps resampling, scaled to enemy variants; Jump clip adapted to lunging attack",
+  "archives": {
+    "Colors.zip": "f147414a816ec91b08a41cb7fd9dedc9da9e35edde36ffdabefed5d9725da4ef",
+    "Poses.zip": "10b7f947b64a6e1cf4f845800f8417d91e830f6df56c24a03922065df2cf0af3"
+  }
+}

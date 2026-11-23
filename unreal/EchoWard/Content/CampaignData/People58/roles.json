@@ -1,0 +1,243 @@
+{
+  "people": {
+    "PERSON_2": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "PERSON_3": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "PERSON_4": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "PERSON_6": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_MARINA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_BORIS": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_PAVEL": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_RAYA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_LEONID": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_SEROV": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_GALINA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_ZOTOV": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_ARTYOM": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_SEMYON": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 65
+    },
+    "NEW_NPC_ORLOVA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_DEMIN": {
+      "escort": false,
+      "smoker": true,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_001": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_NINA": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 65
+    },
+    "NEW_NPC_OLGA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_EGOR": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "NEW_NPC_SASHA": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_03": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_21": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_22": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_25": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_27": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_28": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_29": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": false,
+      "speed": 85
+    },
+    "FILE_30": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_31": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_32": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_33": {
+      "escort": false,
+      "smoker": true,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_34": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_35": {
+      "escort": true,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    },
+    "FILE_36": {
+      "escort": false,
+      "smoker": false,
+      "vulnerable": true,
+      "speed": 85
+    }
+  },
+  "scenes": {
+    "SCENE_01_02": [
+      "PERSON_2"
+    ],
+    "SCENE_03_01": [
+      "PERSON_3"
+    ],
+    "SCENE_03_02": [
+      "PERSON_3"
+    ],
+    "SCENE_03_04": [
+      "PERSON_3"
+    ],
+    "SCENE_12_02": [
+      "NEW_NPC_SEMYON"
+    ],
+    "SCENE_12_03": [
+      "NEW_NPC_SEMYON"
+    ],
+    "SCENE_16_01": [
+      "NEW_NPC_ORLOVA",
+      "FILE_35"
+    ],
+    "SCENE_19_03": [
+      "FILE_33",
+      "FILE_36",
+      "NEW_NPC_ORLOVA"
+    ]
+  }
+}

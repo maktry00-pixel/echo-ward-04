@@ -1,0 +1,29 @@
+{
+  "id": "hound_03",
+  "species": "hound",
+  "height_cm": 180.0,
+  "vertex_count": 14295,
+  "triangles": 16014,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 59.4,
+  "period": 0.88,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\hound_03\\local\\hound_03.glb",
+  "texture_px": 1024
+}

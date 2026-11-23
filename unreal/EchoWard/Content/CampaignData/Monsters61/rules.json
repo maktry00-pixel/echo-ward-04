@@ -1,0 +1,3707 @@
+{
+  "revision": 61,
+  "rules": {
+    "patients": {
+      "id": "patients",
+      "first_chapter": 2,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Первые пациенты",
+      "combat_class": "A",
+      "size_class": "small",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": true,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 700,
+      "chase_speed_cm": 195,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Елестер",
+      "motion": "walk",
+      "sound_set": "patients",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "hound": {
+      "id": "hound",
+      "first_chapter": 4,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Ищейка",
+      "combat_class": "A",
+      "size_class": "small",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": true,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1500,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 12,
+      "patrol_cm": 550,
+      "chase_speed_cm": 320,
+      "windup_seconds": 0.48,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Ізкесер",
+      "motion": "run",
+      "sound_set": "hound",
+      "speech": [],
+      "attack_lunge_cm": 30,
+      "patrol_pause_seconds": 1.4
+    },
+    "carrier": {
+      "id": "carrier",
+      "first_chapter": 6,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Носитель",
+      "combat_class": "A",
+      "size_class": "small",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": true,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Тасымалдаушы",
+      "motion": "heavy",
+      "sound_set": "carrier",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "repeater": {
+      "id": "repeater",
+      "first_chapter": 8,
+      "implemented": true,
+      "infrastructure": "phones_and_vents",
+      "name": "Повторяющий",
+      "combat_class": "A",
+      "size_class": "small",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": true,
+      "barricade_break": false,
+      "distraction_sources": [
+        "tray",
+        "bell"
+      ],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Жаңғырық",
+      "motion": "walk",
+      "sound_set": "repeater",
+      "speech": [
+        "Палата четыре. Ответьте.",
+        "Закройте дверь. Закройте дверь."
+      ],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 2.6
+    },
+    "transporter": {
+      "id": "transporter",
+      "first_chapter": 9,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Переносчик",
+      "combat_class": "A",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Сүйреткіш",
+      "motion": "walk",
+      "sound_set": "transporter",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "collector": {
+      "id": "collector",
+      "first_chapter": 15,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Сборщик",
+      "combat_class": "A",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Құрастырушы",
+      "motion": "walk",
+      "sound_set": "collector",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "stitched": {
+      "id": "stitched",
+      "first_chapter": 3,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Сшитый",
+      "combat_class": "B",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 170,
+      "windup_seconds": 1.1,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 180,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 205,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Жамау",
+      "motion": "heavy",
+      "sound_set": "stitched",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "blind_surgeon": {
+      "id": "blind_surgeon",
+      "first_chapter": 12,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Слепой хирург",
+      "combat_class": "B",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 0,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.65,
+      "memory_seconds": 5,
+      "search_seconds": 13,
+      "patrol_cm": 550,
+      "chase_speed_cm": 155,
+      "windup_seconds": 1.05,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 180,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 195,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "flash_immune": true,
+      "type_nickname": "Соқыр оташы",
+      "motion": "walk",
+      "sound_set": "blind_surgeon",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "linked": {
+      "id": "linked",
+      "first_chapter": 13,
+      "implemented": true,
+      "infrastructure": "LINK_nodes",
+      "name": "Связанные",
+      "combat_class": "B",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Байлаулылар",
+      "motion": "walk",
+      "sound_set": "linked",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "armoured": {
+      "id": "armoured",
+      "first_chapter": 14,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Панцирный",
+      "combat_class": "B",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 145,
+      "windup_seconds": 1.15,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 180,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 200,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Сауыт",
+      "motion": "heavy",
+      "sound_set": "armoured",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "nest": {
+      "id": "nest",
+      "first_chapter": 11,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Гнездо",
+      "combat_class": "B",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1500,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 0,
+      "windup_seconds": 1.05,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 160,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": true,
+      "art_height_cm": 120,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Ұя",
+      "motion": "stationary",
+      "sound_set": "nest",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "conductor": {
+      "id": "conductor",
+      "first_chapter": 16,
+      "implemented": true,
+      "infrastructure": "LINK_nodes",
+      "name": "Проводник",
+      "combat_class": "B",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1300,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Жетелеуші",
+      "motion": "walk",
+      "sound_set": "conductor",
+      "speech": [
+        "Тише. Иди за светом.",
+        "Не оборачивайся."
+      ],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "central_organism": {
+      "id": "central_organism",
+      "first_chapter": 18,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Центральный организм",
+      "combat_class": "B",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1800,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 0,
+      "windup_seconds": 1.35,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 230,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": true,
+      "art_height_cm": 170,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Өзек",
+      "motion": "stationary",
+      "sound_set": "central_organism",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "listener": {
+      "id": "listener",
+      "first_chapter": 5,
+      "implemented": true,
+      "infrastructure": "pipe_resonance",
+      "name": "Слушатель",
+      "combat_class": "B",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "finale_only",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [
+        "tray",
+        "bell"
+      ],
+      "counterplay": [
+        "escape",
+        "cover",
+        "finale_combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 0,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.65,
+      "memory_seconds": 5,
+      "search_seconds": 13,
+      "patrol_cm": 550,
+      "chase_speed_cm": 210,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "flash_immune": true,
+      "type_nickname": "Тыңшы",
+      "motion": "walk",
+      "sound_set": "listener",
+      "speech": [],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 2.6
+    },
+    "keeper": {
+      "id": "keeper",
+      "first_chapter": 7,
+      "implemented": true,
+      "infrastructure": "camera_segments",
+      "name": "Смотритель",
+      "combat_class": "C",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "never",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "bolt",
+        "power_off"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1100,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 10,
+      "patrol_cm": 550,
+      "chase_speed_cm": 185,
+      "windup_seconds": 0.65,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Қарауыл",
+      "motion": "walk",
+      "sound_set": "keeper",
+      "speech": [
+        "Движение в коридоре.",
+        "Нарушен режим карантина."
+      ],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 2.6
+    },
+    "impostor": {
+      "id": "impostor",
+      "first_chapter": 10,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Подмена",
+      "combat_class": "C",
+      "size_class": "medium",
+      "classification_status": "review_proposal",
+      "kill_condition": "never",
+      "niche_pass": false,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "bolt",
+        "power_off"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 950,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 550,
+      "chase_speed_cm": 230,
+      "windup_seconds": 0.85,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 145,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 178,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Сыңар",
+      "motion": "walk",
+      "sound_set": "impostor",
+      "speech": [
+        "Сюда. Я знаю выход.",
+        "Ты меня слышишь?"
+      ],
+      "attack_lunge_cm": 0,
+      "patrol_pause_seconds": 1.4
+    },
+    "pursuer": {
+      "id": "pursuer",
+      "first_chapter": 17,
+      "implemented": true,
+      "infrastructure": "LINK_nodes",
+      "name": "Преследователь",
+      "combat_class": "C",
+      "size_class": "large",
+      "classification_status": "review_proposal",
+      "kill_condition": "never",
+      "niche_pass": false,
+      "barricade_break": true,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "bolt",
+        "power_off"
+      ],
+      "finale_variant": {
+        "combat_class": "B",
+        "enabled": false,
+        "reason": "branch dependent; not confirmed"
+      },
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 1550,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 7,
+      "search_seconds": 16,
+      "patrol_cm": 550,
+      "chase_speed_cm": 270,
+      "windup_seconds": 1.05,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 180,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [
+        19
+      ],
+      "stationary": false,
+      "art_height_cm": 195,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Қуғыншы",
+      "motion": "run",
+      "sound_set": "pursuer",
+      "speech": [],
+      "attack_lunge_cm": 30,
+      "patrol_pause_seconds": 1.4
+    },
+    "parasite": {
+      "id": "parasite",
+      "first_chapter": 6,
+      "implemented": true,
+      "infrastructure": "chapter_geometry",
+      "name": "Паразит",
+      "combat_class": "A",
+      "size_class": "small",
+      "classification_status": "review_proposal",
+      "kill_condition": "immediate",
+      "niche_pass": true,
+      "barricade_break": false,
+      "distraction_sources": [],
+      "counterplay": [
+        "escape",
+        "cover",
+        "combat"
+      ],
+      "implementation_scope": "prototype_actor_perception_combat_and_class_rules",
+      "sight_cm": 750,
+      "half_fov_deg": 65,
+      "hearing_gain": 1.0,
+      "memory_seconds": 5,
+      "search_seconds": 8,
+      "patrol_cm": 250,
+      "chase_speed_cm": 240,
+      "windup_seconds": 0.4,
+      "recovery_seconds": 1.0,
+      "attack_reach_cm": 115,
+      "stagger_seconds": 0.22,
+      "reappear_chapters": [],
+      "stationary": false,
+      "art_height_cm": 65,
+      "zone_states": [
+        "open",
+        "closed",
+        "infected",
+        "damaged",
+        "collapsed",
+        "clean",
+        "destroyed"
+      ],
+      "type_nickname": "Құрт",
+      "motion": "crawl",
+      "sound_set": "parasite",
+      "speech": [],
+      "attack_lunge_cm": 13,
+      "patrol_pause_seconds": 1.4
+    }
+  },
+  "individuals": {
+    "MOB_patients_01": {
+      "guid": "MOB_patients_01",
+      "nickname": "Сусыз",
+      "anchors": [
+        "MOB_patients_01"
+      ],
+      "model": "patients_01"
+    },
+    "MOB_patients_02": {
+      "guid": "MOB_patients_02",
+      "nickname": "Үнсіз",
+      "anchors": [
+        "MOB_patients_02"
+      ],
+      "model": "patients_02"
+    },
+    "MOB_patients_03": {
+      "guid": "MOB_patients_03",
+      "nickname": "Діріл",
+      "anchors": [
+        "MOB_patients_03"
+      ],
+      "model": "patients_03"
+    },
+    "MOB_patients_04": {
+      "guid": "MOB_patients_04",
+      "nickname": "Қисық",
+      "anchors": [
+        "MOB_patients_04"
+      ],
+      "model": "patients_04"
+    },
+    "MOB_patients_05": {
+      "guid": "MOB_patients_05",
+      "nickname": "Бозарған",
+      "anchors": [
+        "MOB_patients_05"
+      ],
+      "model": "patients_05"
+    },
+    "MOB_patients_06": {
+      "guid": "MOB_patients_06",
+      "nickname": "Селтек",
+      "anchors": [
+        "MOB_patients_06"
+      ],
+      "model": "patients_06"
+    },
+    "MOB_patients_07": {
+      "guid": "MOB_patients_07",
+      "nickname": "Түнек",
+      "anchors": [
+        "MOB_patients_07"
+      ],
+      "model": "patients_07"
+    },
+    "MOB_patients_08": {
+      "guid": "MOB_patients_08",
+      "nickname": "Көлеңке",
+      "anchors": [
+        "MOB_patients_08"
+      ],
+      "model": "patients_08"
+    },
+    "MOB_hound_01": {
+      "guid": "MOB_hound_01",
+      "nickname": "Қансоқпақ",
+      "anchors": [
+        "MOB_hound_01"
+      ],
+      "model": "hound_01"
+    },
+    "MOB_hound_02": {
+      "guid": "MOB_hound_02",
+      "nickname": "Қараіз",
+      "anchors": [
+        "MOB_hound_02"
+      ],
+      "model": "hound_02"
+    },
+    "MOB_hound_03": {
+      "guid": "MOB_hound_03",
+      "nickname": "Тісқайрақ",
+      "anchors": [
+        "MOB_hound_03"
+      ],
+      "model": "hound_03"
+    },
+    "MOB_hound_04": {
+      "guid": "MOB_hound_04",
+      "nickname": "Түнжортар",
+      "anchors": [
+        "MOB_hound_04"
+      ],
+      "model": "hound_04"
+    },
+    "MOB_carrier_01": {
+      "guid": "MOB_carrier_01",
+      "nickname": "Ісік",
+      "anchors": [
+        "MOB_carrier_01"
+      ],
+      "model": "carrier_01"
+    },
+    "MOB_carrier_02": {
+      "guid": "MOB_carrier_02",
+      "nickname": "Сызат",
+      "anchors": [
+        "MOB_carrier_02"
+      ],
+      "model": "carrier_02"
+    },
+    "MOB_carrier_03": {
+      "guid": "MOB_carrier_03",
+      "nickname": "Қуыскеуде",
+      "anchors": [
+        "MOB_carrier_03"
+      ],
+      "model": "carrier_03"
+    },
+    "MOB_carrier_04": {
+      "guid": "MOB_carrier_04",
+      "nickname": "Ірің",
+      "anchors": [
+        "MOB_carrier_04"
+      ],
+      "model": "carrier_04"
+    },
+    "MOB_repeater_01": {
+      "guid": "MOB_repeater_01",
+      "nickname": "Сыбыр",
+      "anchors": [
+        "MOB_repeater_01"
+      ],
+      "model": "repeater_01"
+    },
+    "MOB_repeater_02": {
+      "guid": "MOB_repeater_02",
+      "nickname": "Қайтаүн",
+      "anchors": [
+        "MOB_repeater_02"
+      ],
+      "model": "repeater_02"
+    },
+    "MOB_transporter_01": {
+      "guid": "MOB_transporter_01",
+      "nickname": "Қылтұзақ",
+      "anchors": [
+        "MOB_transporter_01"
+      ],
+      "model": "transporter_01"
+    },
+    "MOB_transporter_02": {
+      "guid": "MOB_transporter_02",
+      "nickname": "Сүйретпе",
+      "anchors": [
+        "MOB_transporter_02"
+      ],
+      "model": "transporter_02"
+    },
+    "MOB_collector_01": {
+      "guid": "collector",
+      "nickname": "Құрастырушы",
+      "anchors": [
+        "MOB_collector_01",
+        "MOB_collector_02"
+      ],
+      "model": "collector_01"
+    },
+    "MOB_collector_02": {
+      "guid": "collector",
+      "nickname": "Құрастырушы",
+      "anchors": [
+        "MOB_collector_01",
+        "MOB_collector_02"
+      ],
+      "model": "collector_01"
+    },
+    "MOB_stitched_01": {
+      "guid": "stitched",
+      "nickname": "Жамау",
+      "anchors": [
+        "MOB_stitched_01",
+        "MOB_stitched_02"
+      ],
+      "model": "stitched_01"
+    },
+    "MOB_stitched_02": {
+      "guid": "stitched",
+      "nickname": "Жамау",
+      "anchors": [
+        "MOB_stitched_01",
+        "MOB_stitched_02"
+      ],
+      "model": "stitched_01"
+    },
+    "MOB_blind_surgeon_01": {
+      "guid": "blind_surgeon",
+      "nickname": "Соқыр оташы",
+      "anchors": [
+        "MOB_blind_surgeon_01",
+        "MOB_blind_surgeon_02"
+      ],
+      "model": "blind_surgeon_01"
+    },
+    "MOB_blind_surgeon_02": {
+      "guid": "blind_surgeon",
+      "nickname": "Соқыр оташы",
+      "anchors": [
+        "MOB_blind_surgeon_01",
+        "MOB_blind_surgeon_02"
+      ],
+      "model": "blind_surgeon_01"
+    },
+    "MOB_linked_01": {
+      "guid": "MOB_linked_01",
+      "nickname": "Жіп",
+      "anchors": [
+        "MOB_linked_01"
+      ],
+      "model": "linked_01"
+    },
+    "MOB_linked_02": {
+      "guid": "MOB_linked_02",
+      "nickname": "Түйін",
+      "anchors": [
+        "MOB_linked_02"
+      ],
+      "model": "linked_02"
+    },
+    "MOB_linked_03": {
+      "guid": "MOB_linked_03",
+      "nickname": "Ілмек",
+      "anchors": [
+        "MOB_linked_03"
+      ],
+      "model": "linked_03"
+    },
+    "MOB_linked_04": {
+      "guid": "MOB_linked_04",
+      "nickname": "Шырмау",
+      "anchors": [
+        "MOB_linked_04"
+      ],
+      "model": "linked_04"
+    },
+    "MOB_armoured_01": {
+      "guid": "armoured",
+      "nickname": "Сауыт",
+      "anchors": [
+        "MOB_armoured_01",
+        "MOB_armoured_02"
+      ],
+      "model": "armoured_01"
+    },
+    "MOB_armoured_02": {
+      "guid": "armoured",
+      "nickname": "Сауыт",
+      "anchors": [
+        "MOB_armoured_01",
+        "MOB_armoured_02"
+      ],
+      "model": "armoured_01"
+    },
+    "MOB_nest_01": {
+      "guid": "nest",
+      "nickname": "Ұя",
+      "anchors": [
+        "MOB_nest_01",
+        "MOB_nest_02"
+      ],
+      "model": "nest_01"
+    },
+    "MOB_nest_02": {
+      "guid": "nest",
+      "nickname": "Ұя",
+      "anchors": [
+        "MOB_nest_01",
+        "MOB_nest_02"
+      ],
+      "model": "nest_01"
+    },
+    "MOB_conductor_01": {
+      "guid": "conductor",
+      "nickname": "Жетелеуші",
+      "anchors": [
+        "MOB_conductor_01",
+        "MOB_conductor_02"
+      ],
+      "model": "conductor_01"
+    },
+    "MOB_conductor_02": {
+      "guid": "conductor",
+      "nickname": "Жетелеуші",
+      "anchors": [
+        "MOB_conductor_01",
+        "MOB_conductor_02"
+      ],
+      "model": "conductor_01"
+    },
+    "MOB_central_organism_01": {
+      "guid": "central_organism",
+      "nickname": "Өзек",
+      "anchors": [
+        "MOB_central_organism_01",
+        "MOB_central_organism_02"
+      ],
+      "model": "central_organism_01"
+    },
+    "MOB_central_organism_02": {
+      "guid": "central_organism",
+      "nickname": "Өзек",
+      "anchors": [
+        "MOB_central_organism_01",
+        "MOB_central_organism_02"
+      ],
+      "model": "central_organism_01"
+    },
+    "MOB_listener_01": {
+      "guid": "listener",
+      "nickname": "Тыңшы",
+      "anchors": [
+        "MOB_listener_01",
+        "MOB_listener_02"
+      ],
+      "model": "listener_01"
+    },
+    "MOB_listener_02": {
+      "guid": "listener",
+      "nickname": "Тыңшы",
+      "anchors": [
+        "MOB_listener_01",
+        "MOB_listener_02"
+      ],
+      "model": "listener_01"
+    },
+    "MOB_keeper_01": {
+      "guid": "keeper",
+      "nickname": "Қарауыл",
+      "anchors": [
+        "MOB_keeper_01",
+        "MOB_keeper_02"
+      ],
+      "model": "keeper_01"
+    },
+    "MOB_keeper_02": {
+      "guid": "keeper",
+      "nickname": "Қарауыл",
+      "anchors": [
+        "MOB_keeper_01",
+        "MOB_keeper_02"
+      ],
+      "model": "keeper_01"
+    },
+    "MOB_impostor_01": {
+      "guid": "impostor",
+      "nickname": "Сыңар",
+      "anchors": [
+        "MOB_impostor_01",
+        "MOB_impostor_02"
+      ],
+      "model": "impostor_01"
+    },
+    "MOB_impostor_02": {
+      "guid": "impostor",
+      "nickname": "Сыңар",
+      "anchors": [
+        "MOB_impostor_01",
+        "MOB_impostor_02"
+      ],
+      "model": "impostor_01"
+    },
+    "MOB_pursuer_01": {
+      "guid": "pursuer",
+      "nickname": "Қуғыншы",
+      "anchors": [
+        "MOB_pursuer_01",
+        "MOB_pursuer_02"
+      ],
+      "model": "pursuer_01"
+    },
+    "MOB_pursuer_02": {
+      "guid": "pursuer",
+      "nickname": "Қуғыншы",
+      "anchors": [
+        "MOB_pursuer_01",
+        "MOB_pursuer_02"
+      ],
+      "model": "pursuer_01"
+    }
+  },
+  "encounters": [
+    {
+      "id": "MOB_patients_01",
+      "zone": "F202",
+      "site": "2F",
+      "at": [
+        20.65,
+        56.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_02",
+      "zone": "F203",
+      "site": "2F",
+      "at": [
+        29.65,
+        56.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_03",
+      "zone": "F204",
+      "site": "2F",
+      "at": [
+        39.15,
+        54.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_04",
+      "zone": "F205",
+      "site": "2F",
+      "at": [
+        55.15,
+        54.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_05",
+      "zone": "F206",
+      "site": "2F",
+      "at": [
+        64.65,
+        54.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_06",
+      "zone": "F207",
+      "site": "2F",
+      "at": [
+        73.65,
+        54.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_07",
+      "zone": "F208",
+      "site": "2F",
+      "at": [
+        83.65,
+        54.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_patients_08",
+      "zone": "R37",
+      "site": "2F",
+      "at": [
+        71.65,
+        28.15,
+        4.8
+      ],
+      "species": "patients",
+      "name": "Первые пациенты",
+      "chapter": 2,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_patients"
+    },
+    {
+      "id": "MOB_hound_01",
+      "zone": "R11",
+      "site": "1F",
+      "at": [
+        75.15,
+        7.15,
+        0
+      ],
+      "species": "hound",
+      "name": "Ищейка",
+      "chapter": 4,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_hound"
+    },
+    {
+      "id": "MOB_hound_02",
+      "zone": "S02",
+      "site": "ST",
+      "at": [
+        74.65,
+        -13.35,
+        0
+      ],
+      "species": "hound",
+      "name": "Ищейка",
+      "chapter": 4,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_hound"
+    },
+    {
+      "id": "MOB_hound_03",
+      "zone": "S08",
+      "site": "ST",
+      "at": [
+        -20.35,
+        -113.35,
+        0
+      ],
+      "species": "hound",
+      "name": "Ищейка",
+      "chapter": 4,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_hound"
+    },
+    {
+      "id": "MOB_hound_04",
+      "zone": "S06",
+      "site": "ST",
+      "at": [
+        156.65,
+        -121.85,
+        0
+      ],
+      "species": "hound",
+      "name": "Ищейка",
+      "chapter": 4,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_hound"
+    },
+    {
+      "id": "MOB_carrier_01",
+      "zone": "E15",
+      "site": "B2",
+      "at": [
+        39.65,
+        52.15,
+        -9.6
+      ],
+      "species": "carrier",
+      "name": "Носитель",
+      "chapter": 6,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_carrier"
+    },
+    {
+      "id": "MOB_carrier_02",
+      "zone": "E05",
+      "site": "B2",
+      "at": [
+        71.15,
+        7.65,
+        -9.6
+      ],
+      "species": "carrier",
+      "name": "Носитель",
+      "chapter": 6,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_carrier"
+    },
+    {
+      "id": "MOB_carrier_03",
+      "zone": "E07",
+      "site": "B2",
+      "at": [
+        15.65,
+        29.65,
+        -9.6
+      ],
+      "species": "carrier",
+      "name": "Носитель",
+      "chapter": 6,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_carrier"
+    },
+    {
+      "id": "MOB_carrier_04",
+      "zone": "E01",
+      "site": "B2",
+      "at": [
+        18.15,
+        7.15,
+        -9.6
+      ],
+      "species": "carrier",
+      "name": "Носитель",
+      "chapter": 6,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_carrier"
+    },
+    {
+      "id": "MOB_repeater_01",
+      "zone": "B112",
+      "site": "B1",
+      "at": [
+        71.65,
+        55.65,
+        -4.8
+      ],
+      "species": "repeater",
+      "name": "Повторяющий",
+      "chapter": 8,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_repeater"
+    },
+    {
+      "id": "MOB_repeater_02",
+      "zone": "F203",
+      "site": "2F",
+      "at": [
+        31.15,
+        54.65,
+        4.8
+      ],
+      "species": "repeater",
+      "name": "Повторяющий",
+      "chapter": 8,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_repeater"
+    },
+    {
+      "id": "MOB_transporter_01",
+      "zone": "SV24",
+      "site": "SV",
+      "at": [
+        233.65,
+        305.65,
+        0
+      ],
+      "species": "transporter",
+      "name": "Переносчик",
+      "chapter": 9,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_transporter"
+    },
+    {
+      "id": "MOB_transporter_02",
+      "zone": "N15",
+      "site": "B1",
+      "at": [
+        11.15,
+        75.15,
+        -4.8
+      ],
+      "species": "transporter",
+      "name": "Переносчик",
+      "chapter": 9,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_transporter"
+    },
+    {
+      "id": "MOB_collector_01",
+      "zone": "E04",
+      "site": "B2",
+      "at": [
+        57.65,
+        7.15,
+        -9.6
+      ],
+      "species": "collector",
+      "name": "Сборщик",
+      "chapter": 15,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_collector"
+    },
+    {
+      "id": "MOB_collector_02",
+      "zone": "E09",
+      "site": "B2",
+      "at": [
+        41.65,
+        29.65,
+        -9.6
+      ],
+      "species": "collector",
+      "name": "Сборщик",
+      "chapter": 15,
+      "combat_class": "A",
+      "kill_condition": "immediate",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_collector"
+    },
+    {
+      "id": "MOB_stitched_01",
+      "zone": "F210",
+      "site": "2F",
+      "at": [
+        21.15,
+        73.65,
+        4.8
+      ],
+      "species": "stitched",
+      "name": "Сшитый",
+      "chapter": 3,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_stitched"
+    },
+    {
+      "id": "MOB_stitched_02",
+      "zone": "F211",
+      "site": "2F",
+      "at": [
+        31.65,
+        76.65,
+        4.8
+      ],
+      "species": "stitched",
+      "name": "Сшитый",
+      "chapter": 3,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_stitched"
+    },
+    {
+      "id": "MOB_blind_surgeon_01",
+      "zone": "DG13",
+      "site": "DG2",
+      "at": [
+        -132.85,
+        53.15,
+        4.8
+      ],
+      "species": "blind_surgeon",
+      "name": "Слепой хирург",
+      "chapter": 12,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_blind_surgeon"
+    },
+    {
+      "id": "MOB_blind_surgeon_02",
+      "zone": "DG17",
+      "site": "DG2",
+      "at": [
+        -81.35,
+        55.15,
+        4.8
+      ],
+      "species": "blind_surgeon",
+      "name": "Слепой хирург",
+      "chapter": 12,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_blind_surgeon"
+    },
+    {
+      "id": "MOB_linked_01",
+      "zone": "HS11",
+      "site": "HS",
+      "at": [
+        -82.85,
+        259.65,
+        0
+      ],
+      "species": "linked",
+      "name": "Связанные",
+      "chapter": 13,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_linked"
+    },
+    {
+      "id": "MOB_linked_02",
+      "zone": "HS12",
+      "site": "HS",
+      "at": [
+        -73.35,
+        257.15,
+        0
+      ],
+      "species": "linked",
+      "name": "Связанные",
+      "chapter": 13,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_linked"
+    },
+    {
+      "id": "MOB_linked_03",
+      "zone": "HS17",
+      "site": "HS",
+      "at": [
+        -84.35,
+        287.15,
+        0
+      ],
+      "species": "linked",
+      "name": "Связанные",
+      "chapter": 13,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_linked"
+    },
+    {
+      "id": "MOB_linked_04",
+      "zone": "HS09",
+      "site": "HS",
+      "at": [
+        -110.85,
+        258.15,
+        0
+      ],
+      "species": "linked",
+      "name": "Связанные",
+      "chapter": 13,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_linked"
+    },
+    {
+      "id": "MOB_armoured_01",
+      "zone": "S09",
+      "site": "ST",
+      "at": [
+        130.15,
+        -98.85,
+        0
+      ],
+      "species": "armoured",
+      "name": "Панцирный",
+      "chapter": 14,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_armoured"
+    },
+    {
+      "id": "MOB_armoured_02",
+      "zone": "S02",
+      "site": "ST",
+      "at": [
+        76.15,
+        -15.85,
+        0
+      ],
+      "species": "armoured",
+      "name": "Панцирный",
+      "chapter": 14,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_armoured"
+    },
+    {
+      "id": "MOB_nest_01",
+      "zone": "B106",
+      "site": "B1",
+      "at": [
+        11.65,
+        55.15,
+        -4.8
+      ],
+      "species": "nest",
+      "name": "Гнездо",
+      "chapter": 11,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_nest"
+    },
+    {
+      "id": "MOB_nest_02",
+      "zone": "B107",
+      "site": "B1",
+      "at": [
+        22.65,
+        57.65,
+        -4.8
+      ],
+      "species": "nest",
+      "name": "Гнездо",
+      "chapter": 11,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_nest"
+    },
+    {
+      "id": "MOB_conductor_01",
+      "zone": "F214",
+      "site": "2F",
+      "at": [
+        64.65,
+        74.15,
+        4.8
+      ],
+      "species": "conductor",
+      "name": "Проводник",
+      "chapter": 16,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_conductor"
+    },
+    {
+      "id": "MOB_conductor_02",
+      "zone": "R54",
+      "site": "B1",
+      "at": [
+        40.15,
+        7.65,
+        -4.8
+      ],
+      "species": "conductor",
+      "name": "Проводник",
+      "chapter": 16,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_conductor"
+    },
+    {
+      "id": "MOB_central_organism_01",
+      "zone": "E06",
+      "site": "B2",
+      "at": [
+        82.15,
+        6.65,
+        -9.6
+      ],
+      "species": "central_organism",
+      "name": "Центральный организм",
+      "chapter": 18,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_central_organism"
+    },
+    {
+      "id": "MOB_central_organism_02",
+      "zone": "E24",
+      "site": "B2",
+      "at": [
+        84.15,
+        76.15,
+        -9.6
+      ],
+      "species": "central_organism",
+      "name": "Центральный организм",
+      "chapter": 18,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_central_organism"
+    },
+    {
+      "id": "MOB_listener_01",
+      "zone": "B106",
+      "site": "B1",
+      "at": [
+        12.15,
+        54.65,
+        -4.8
+      ],
+      "species": "listener",
+      "name": "Слушатель",
+      "chapter": 5,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_listener"
+    },
+    {
+      "id": "MOB_listener_02",
+      "zone": "B107",
+      "site": "B1",
+      "at": [
+        18.65,
+        56.15,
+        -4.8
+      ],
+      "species": "listener",
+      "name": "Слушатель",
+      "chapter": 5,
+      "combat_class": "B",
+      "kill_condition": "finale_only",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_listener"
+    },
+    {
+      "id": "MOB_keeper_01",
+      "zone": "E21",
+      "site": "B2",
+      "at": [
+        38.65,
+        76.65,
+        -9.6
+      ],
+      "species": "keeper",
+      "name": "Смотритель",
+      "chapter": 7,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_keeper"
+    },
+    {
+      "id": "MOB_keeper_02",
+      "zone": "R40",
+      "site": "3F",
+      "at": [
+        22.15,
+        10.15,
+        9.6
+      ],
+      "species": "keeper",
+      "name": "Смотритель",
+      "chapter": 7,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_keeper"
+    },
+    {
+      "id": "MOB_impostor_01",
+      "zone": "SV24",
+      "site": "SV",
+      "at": [
+        230.15,
+        302.65,
+        0
+      ],
+      "species": "impostor",
+      "name": "Подмена",
+      "chapter": 10,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_impostor"
+    },
+    {
+      "id": "MOB_impostor_02",
+      "zone": "HS11",
+      "site": "HS",
+      "at": [
+        -81.35,
+        256.65,
+        0
+      ],
+      "species": "impostor",
+      "name": "Подмена",
+      "chapter": 10,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.3,
+      "health": 70,
+      "speed": 1.65,
+      "damage": 12,
+      "behaviour": "prototype_impostor"
+    },
+    {
+      "id": "MOB_pursuer_01",
+      "zone": "B115",
+      "site": "B1",
+      "at": [
+        31.15,
+        77.65,
+        -4.8
+      ],
+      "species": "pursuer",
+      "name": "Преследователь",
+      "chapter": 17,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_pursuer"
+    },
+    {
+      "id": "MOB_pursuer_02",
+      "zone": "E23",
+      "site": "B2",
+      "at": [
+        72.15,
+        73.65,
+        -9.6
+      ],
+      "species": "pursuer",
+      "name": "Преследователь",
+      "chapter": 17,
+      "combat_class": "C",
+      "kill_condition": "never",
+      "radius": 0.55,
+      "health": 180,
+      "speed": 1.15,
+      "damage": 24,
+      "behaviour": "prototype_pursuer"
+    }
+  ],
+  "zone_evolution": [
+    {
+      "zone": "E01",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E02",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E03",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E04",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E05",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E06",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E07",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E08",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E09",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E10",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E11",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E12",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E13",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E14",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E15",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E16",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E17",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E18",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E19",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E20",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E21",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E22",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E23",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "E24",
+      "site": "B2",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 6,
+          "state": "infected"
+        },
+        {
+          "chapter": 15,
+          "state": "damaged"
+        },
+        {
+          "chapter": 18,
+          "state": "collapsed"
+        }
+      ]
+    },
+    {
+      "zone": "DG25",
+      "site": "DG",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 16,
+          "state": "infected"
+        },
+        {
+          "chapter": 18,
+          "state": "damaged"
+        }
+      ]
+    },
+    {
+      "zone": "DG26",
+      "site": "DG",
+      "states": [
+        {
+          "chapter": 0,
+          "state": "clean"
+        },
+        {
+          "chapter": 16,
+          "state": "infected"
+        },
+        {
+          "chapter": 18,
+          "state": "damaged"
+        }
+      ]
+    }
+  ],
+  "network_devices": [
+    {
+      "id": "phone_R12",
+      "zone": "R12",
+      "site": "1F",
+      "type": "phone",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "camera_R12",
+      "zone": "R12",
+      "site": "1F",
+      "type": "camera",
+      "segment": "1F_local",
+      "upstream": "E06",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "power_switch_R12",
+      "zone": "R12",
+      "site": "1F",
+      "type": "power_switch",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "phone_F101",
+      "zone": "F101",
+      "site": "1F",
+      "type": "phone",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "camera_F101",
+      "zone": "F101",
+      "site": "1F",
+      "type": "camera",
+      "segment": "1F_local",
+      "upstream": "E06",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "power_switch_F101",
+      "zone": "F101",
+      "site": "1F",
+      "type": "power_switch",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "phone_R21",
+      "zone": "R21",
+      "site": "1F",
+      "type": "phone",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "camera_R21",
+      "zone": "R21",
+      "site": "1F",
+      "type": "camera",
+      "segment": "1F_local",
+      "upstream": "E06",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "power_switch_R21",
+      "zone": "R21",
+      "site": "1F",
+      "type": "power_switch",
+      "segment": "1F_local",
+      "upstream": "R40",
+      "sound_bus": "1F_vent"
+    },
+    {
+      "id": "phone_B102",
+      "zone": "B102",
+      "site": "B1",
+      "type": "phone",
+      "segment": "B1_local",
+      "upstream": "R40",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "camera_B102",
+      "zone": "B102",
+      "site": "B1",
+      "type": "camera",
+      "segment": "B1_local",
+      "upstream": "E06",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "power_switch_B102",
+      "zone": "B102",
+      "site": "B1",
+      "type": "power_switch",
+      "segment": "B1_local",
+      "upstream": "R40",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "phone_B114",
+      "zone": "B114",
+      "site": "B1",
+      "type": "phone",
+      "segment": "B1_local",
+      "upstream": "R40",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "camera_B114",
+      "zone": "B114",
+      "site": "B1",
+      "type": "camera",
+      "segment": "B1_local",
+      "upstream": "E06",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "power_switch_B114",
+      "zone": "B114",
+      "site": "B1",
+      "type": "power_switch",
+      "segment": "B1_local",
+      "upstream": "R40",
+      "sound_bus": "B1_pipes"
+    },
+    {
+      "id": "phone_DG08",
+      "zone": "DG08",
+      "site": "DG",
+      "type": "phone",
+      "segment": "DG_local",
+      "upstream": "R40",
+      "sound_bus": "DG_vent"
+    },
+    {
+      "id": "camera_DG08",
+      "zone": "DG08",
+      "site": "DG",
+      "type": "camera",
+      "segment": "DG_local",
+      "upstream": "E06",
+      "sound_bus": "DG_vent"
+    },
+    {
+      "id": "power_switch_DG08",
+      "zone": "DG08",
+      "site": "DG",
+      "type": "power_switch",
+      "segment": "DG_local",
+      "upstream": "R40",
+      "sound_bus": "DG_vent"
+    },
+    {
+      "id": "phone_N05",
+      "zone": "N05",
+      "site": "2F",
+      "type": "phone",
+      "segment": "2F_local",
+      "upstream": "R40",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "camera_N05",
+      "zone": "N05",
+      "site": "2F",
+      "type": "camera",
+      "segment": "2F_local",
+      "upstream": "E06",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "power_switch_N05",
+      "zone": "N05",
+      "site": "2F",
+      "type": "power_switch",
+      "segment": "2F_local",
+      "upstream": "R40",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "phone_F203",
+      "zone": "F203",
+      "site": "2F",
+      "type": "phone",
+      "segment": "2F_local",
+      "upstream": "R40",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "camera_F203",
+      "zone": "F203",
+      "site": "2F",
+      "type": "camera",
+      "segment": "2F_local",
+      "upstream": "E06",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "power_switch_F203",
+      "zone": "F203",
+      "site": "2F",
+      "type": "power_switch",
+      "segment": "2F_local",
+      "upstream": "R40",
+      "sound_bus": "2F_vent"
+    },
+    {
+      "id": "phone_IF08",
+      "zone": "IF08",
+      "site": "IF",
+      "type": "phone",
+      "segment": "IF_local",
+      "upstream": "R40",
+      "sound_bus": "IF_vent"
+    },
+    {
+      "id": "camera_IF08",
+      "zone": "IF08",
+      "site": "IF",
+      "type": "camera",
+      "segment": "IF_local",
+      "upstream": "E06",
+      "sound_bus": "IF_vent"
+    },
+    {
+      "id": "power_switch_IF08",
+      "zone": "IF08",
+      "site": "IF",
+      "type": "power_switch",
+      "segment": "IF_local",
+      "upstream": "R40",
+      "sound_bus": "IF_vent"
+    },
+    {
+      "id": "phone_PS22",
+      "zone": "PS22",
+      "site": "PS",
+      "type": "phone",
+      "segment": "PS_local",
+      "upstream": "R40",
+      "sound_bus": "PS_vent"
+    },
+    {
+      "id": "camera_PS22",
+      "zone": "PS22",
+      "site": "PS",
+      "type": "camera",
+      "segment": "PS_local",
+      "upstream": "E06",
+      "sound_bus": "PS_vent"
+    },
+    {
+      "id": "power_switch_PS22",
+      "zone": "PS22",
+      "site": "PS",
+      "type": "power_switch",
+      "segment": "PS_local",
+      "upstream": "R40",
+      "sound_bus": "PS_vent"
+    },
+    {
+      "id": "phone_R40",
+      "zone": "R40",
+      "site": "3F",
+      "type": "phone",
+      "segment": "3F_local",
+      "upstream": "R40",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "camera_R40",
+      "zone": "R40",
+      "site": "3F",
+      "type": "camera",
+      "segment": "3F_local",
+      "upstream": "E06",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "power_switch_R40",
+      "zone": "R40",
+      "site": "3F",
+      "type": "power_switch",
+      "segment": "3F_local",
+      "upstream": "R40",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "phone_F308",
+      "zone": "F308",
+      "site": "3F",
+      "type": "phone",
+      "segment": "3F_local",
+      "upstream": "R40",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "camera_F308",
+      "zone": "F308",
+      "site": "3F",
+      "type": "camera",
+      "segment": "3F_local",
+      "upstream": "E06",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "power_switch_F308",
+      "zone": "F308",
+      "site": "3F",
+      "type": "power_switch",
+      "segment": "3F_local",
+      "upstream": "R40",
+      "sound_bus": "3F_vent"
+    },
+    {
+      "id": "phone_RH08",
+      "zone": "RH08",
+      "site": "RH",
+      "type": "phone",
+      "segment": "RH_local",
+      "upstream": "R40",
+      "sound_bus": "RH_vent"
+    },
+    {
+      "id": "camera_RH08",
+      "zone": "RH08",
+      "site": "RH",
+      "type": "camera",
+      "segment": "RH_local",
+      "upstream": "E06",
+      "sound_bus": "RH_vent"
+    },
+    {
+      "id": "power_switch_RH08",
+      "zone": "RH08",
+      "site": "RH",
+      "type": "power_switch",
+      "segment": "RH_local",
+      "upstream": "R40",
+      "sound_bus": "RH_vent"
+    },
+    {
+      "id": "phone_HS08",
+      "zone": "HS08",
+      "site": "HS",
+      "type": "phone",
+      "segment": "HS_local",
+      "upstream": "R40",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "camera_HS08",
+      "zone": "HS08",
+      "site": "HS",
+      "type": "camera",
+      "segment": "HS_local",
+      "upstream": "E06",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "power_switch_HS08",
+      "zone": "HS08",
+      "site": "HS",
+      "type": "power_switch",
+      "segment": "HS_local",
+      "upstream": "R40",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "phone_HS11",
+      "zone": "HS11",
+      "site": "HS",
+      "type": "phone",
+      "segment": "HS_local",
+      "upstream": "R40",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "camera_HS11",
+      "zone": "HS11",
+      "site": "HS",
+      "type": "camera",
+      "segment": "HS_local",
+      "upstream": "E06",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "power_switch_HS11",
+      "zone": "HS11",
+      "site": "HS",
+      "type": "power_switch",
+      "segment": "HS_local",
+      "upstream": "R40",
+      "sound_bus": "HS_vent"
+    },
+    {
+      "id": "phone_SV23",
+      "zone": "SV23",
+      "site": "SV",
+      "type": "phone",
+      "segment": "SV_local",
+      "upstream": "R40",
+      "sound_bus": "SV_vent"
+    },
+    {
+      "id": "camera_SV23",
+      "zone": "SV23",
+      "site": "SV",
+      "type": "camera",
+      "segment": "SV_local",
+      "upstream": "E06",
+      "sound_bus": "SV_vent"
+    },
+    {
+      "id": "power_switch_SV23",
+      "zone": "SV23",
+      "site": "SV",
+      "type": "power_switch",
+      "segment": "SV_local",
+      "upstream": "R40",
+      "sound_bus": "SV_vent"
+    },
+    {
+      "id": "phone_X05",
+      "zone": "X05",
+      "site": "ST",
+      "type": "phone",
+      "segment": "ST_local",
+      "upstream": "R40",
+      "sound_bus": "ST_vent"
+    },
+    {
+      "id": "camera_X05",
+      "zone": "X05",
+      "site": "ST",
+      "type": "camera",
+      "segment": "ST_local",
+      "upstream": "E06",
+      "sound_bus": "ST_vent"
+    },
+    {
+      "id": "power_switch_X05",
+      "zone": "X05",
+      "site": "ST",
+      "type": "power_switch",
+      "segment": "ST_local",
+      "upstream": "R40",
+      "sound_bus": "ST_vent"
+    },
+    {
+      "id": "phone_T08",
+      "zone": "T08",
+      "site": "RF",
+      "type": "phone",
+      "segment": "RF_local",
+      "upstream": "R40",
+      "sound_bus": "RF_vent"
+    },
+    {
+      "id": "camera_T08",
+      "zone": "T08",
+      "site": "RF",
+      "type": "camera",
+      "segment": "RF_local",
+      "upstream": "E06",
+      "sound_bus": "RF_vent"
+    },
+    {
+      "id": "power_switch_T08",
+      "zone": "T08",
+      "site": "RF",
+      "type": "power_switch",
+      "segment": "RF_local",
+      "upstream": "R40",
+      "sound_bus": "RF_vent"
+    },
+    {
+      "id": "phone_E06",
+      "zone": "E06",
+      "site": "B2",
+      "type": "phone",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "camera_E06",
+      "zone": "E06",
+      "site": "B2",
+      "type": "camera",
+      "segment": "B2_local",
+      "upstream": "E06",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "power_switch_E06",
+      "zone": "E06",
+      "site": "B2",
+      "type": "power_switch",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "phone_E16",
+      "zone": "E16",
+      "site": "B2",
+      "type": "phone",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "camera_E16",
+      "zone": "E16",
+      "site": "B2",
+      "type": "camera",
+      "segment": "B2_local",
+      "upstream": "E06",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "power_switch_E16",
+      "zone": "E16",
+      "site": "B2",
+      "type": "power_switch",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "phone_E24",
+      "zone": "E24",
+      "site": "B2",
+      "type": "phone",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "camera_E24",
+      "zone": "E24",
+      "site": "B2",
+      "type": "camera",
+      "segment": "B2_local",
+      "upstream": "E06",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "power_switch_E24",
+      "zone": "E24",
+      "site": "B2",
+      "type": "power_switch",
+      "segment": "B2_local",
+      "upstream": "R40",
+      "sound_bus": "B2_pipes"
+    },
+    {
+      "id": "phone_DG18",
+      "zone": "DG18",
+      "site": "DG2",
+      "type": "phone",
+      "segment": "DG2_local",
+      "upstream": "R40",
+      "sound_bus": "DG2_vent"
+    },
+    {
+      "id": "camera_DG18",
+      "zone": "DG18",
+      "site": "DG2",
+      "type": "camera",
+      "segment": "DG2_local",
+      "upstream": "E06",
+      "sound_bus": "DG2_vent"
+    },
+    {
+      "id": "power_switch_DG18",
+      "zone": "DG18",
+      "site": "DG2",
+      "type": "power_switch",
+      "segment": "DG2_local",
+      "upstream": "R40",
+      "sound_bus": "DG2_vent"
+    },
+    {
+      "id": "phone_DG20",
+      "zone": "DG20",
+      "site": "DG2",
+      "type": "phone",
+      "segment": "DG2_local",
+      "upstream": "R40",
+      "sound_bus": "DG2_vent"
+    },
+    {
+      "id": "camera_DG20",
+      "zone": "DG20",
+      "site": "DG2",
+      "type": "camera",
+      "segment": "DG2_local",
+      "upstream": "E06",
+      "sound_bus": "DG2_vent"
+    },
+    {
+      "id": "power_switch_DG20",
+      "zone": "DG20",
+      "site": "DG2",
+      "type": "power_switch",
+      "segment": "DG2_local",
+      "upstream": "R40",
+      "sound_bus": "DG2_vent"
+    }
+  ],
+  "controls": [
+    {
+      "id": "MONSTER_CAMERA_E18",
+      "zone": "E18",
+      "chapter": 7,
+      "kind": "camera_segment",
+      "flag": "monster_camera_B2_off59",
+      "label": "Камеры нижнего блока · переключить локальный сегмент"
+    },
+    {
+      "id": "MONSTER_CAMERA_R40",
+      "zone": "R40",
+      "chapter": 7,
+      "kind": "camera_segment",
+      "flag": "monster_camera_3F_off59",
+      "label": "Камеры поста наблюдения · переключить локальный сегмент"
+    }
+  ],
+  "models": {
+    "patients_01": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Салқын",
+      "species": "patients"
+    },
+    "patients_02": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Үнсіз",
+      "species": "patients"
+    },
+    "patients_03": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Діріл",
+      "species": "patients"
+    },
+    "patients_04": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Қисық",
+      "species": "patients"
+    },
+    "patients_05": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Бозарған",
+      "species": "patients"
+    },
+    "patients_06": {
+      "height_cm": 171.992,
+      "stride_cm": 39.558,
+      "period": 1.2,
+      "name": "Селтек",
+      "species": "patients"
+    },
+    "patients_07": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Түнек",
+      "species": "patients"
+    },
+    "patients_08": {
+      "height_cm": 172.0,
+      "stride_cm": 39.56,
+      "period": 1.2,
+      "name": "Көлеңке",
+      "species": "patients"
+    },
+    "stitched_01": {
+      "height_cm": 235.027,
+      "stride_cm": 54.056,
+      "period": 1.33,
+      "name": "Жамау",
+      "species": "stitched"
+    },
+    "hound_01": {
+      "height_cm": 180.0,
+      "stride_cm": 59.4,
+      "period": 0.88,
+      "name": "Қансоқпақ",
+      "species": "hound"
+    },
+    "hound_02": {
+      "height_cm": 180.0,
+      "stride_cm": 59.4,
+      "period": 0.88,
+      "name": "Қараіз",
+      "species": "hound"
+    },
+    "hound_03": {
+      "height_cm": 180.0,
+      "stride_cm": 59.4,
+      "period": 0.88,
+      "name": "Тісқайрақ",
+      "species": "hound"
+    },
+    "hound_04": {
+      "height_cm": 179.994,
+      "stride_cm": 59.398,
+      "period": 0.88,
+      "name": "Түнжортар",
+      "species": "hound"
+    },
+    "listener_01": {
+      "height_cm": 184.963,
+      "stride_cm": 38.842,
+      "period": 1.23,
+      "name": "Тыңшы",
+      "species": "listener"
+    },
+    "carrier_01": {
+      "height_cm": 185.0,
+      "stride_cm": 40.7,
+      "period": 1.28,
+      "name": "Ісік",
+      "species": "carrier"
+    },
+    "carrier_02": {
+      "height_cm": 185.0,
+      "stride_cm": 40.7,
+      "period": 1.28,
+      "name": "Сызат",
+      "species": "carrier"
+    },
+    "carrier_03": {
+      "height_cm": 185.0,
+      "stride_cm": 40.7,
+      "period": 1.28,
+      "name": "Қуыскеуде",
+      "species": "carrier"
+    },
+    "carrier_04": {
+      "height_cm": 185.01,
+      "stride_cm": 40.702,
+      "period": 1.28,
+      "name": "Ірің",
+      "species": "carrier"
+    },
+    "keeper_01": {
+      "height_cm": 215.0,
+      "stride_cm": 51.6,
+      "period": 1.12,
+      "name": "Қарауыл",
+      "species": "keeper"
+    },
+    "repeater_01": {
+      "height_cm": 180.0,
+      "stride_cm": 30.6,
+      "period": 1.34,
+      "name": "Сыбыр",
+      "species": "repeater"
+    },
+    "repeater_02": {
+      "height_cm": 180.0,
+      "stride_cm": 30.6,
+      "period": 1.34,
+      "name": "Қайтаүн",
+      "species": "repeater"
+    },
+    "transporter_01": {
+      "height_cm": 210.135,
+      "stride_cm": 52.534,
+      "period": 1.27,
+      "name": "Қылтұзақ",
+      "species": "transporter"
+    },
+    "transporter_02": {
+      "height_cm": 210.049,
+      "stride_cm": 52.512,
+      "period": 1.27,
+      "name": "Сүйретпе",
+      "species": "transporter"
+    },
+    "impostor_01": {
+      "height_cm": 175.0,
+      "stride_cm": 36.75,
+      "period": 1.14,
+      "name": "Сыңар",
+      "species": "impostor"
+    },
+    "nest_01": {
+      "height_cm": 280.075,
+      "stride_cm": 18,
+      "period": 0.63,
+      "name": "Ұя",
+      "species": "nest"
+    },
+    "blind_surgeon_01": {
+      "height_cm": 215.0,
+      "stride_cm": 51.6,
+      "period": 1.08,
+      "name": "Соқыр оташы",
+      "species": "blind_surgeon"
+    },
+    "linked_01": {
+      "height_cm": 180.0,
+      "stride_cm": 34.2,
+      "period": 1.32,
+      "name": "Жіп",
+      "species": "linked"
+    },
+    "linked_02": {
+      "height_cm": 180.0,
+      "stride_cm": 34.2,
+      "period": 1.32,
+      "name": "Түйін",
+      "species": "linked"
+    },
+    "linked_03": {
+      "height_cm": 180.0,
+      "stride_cm": 34.2,
+      "period": 1.32,
+      "name": "Ілмек",
+      "species": "linked"
+    },
+    "linked_04": {
+      "height_cm": 180.0,
+      "stride_cm": 34.2,
+      "period": 1.32,
+      "name": "Шырмау",
+      "species": "linked"
+    },
+    "armoured_01": {
+      "height_cm": 225.0,
+      "stride_cm": 42.75,
+      "period": 1.55,
+      "name": "Сауыт",
+      "species": "armoured"
+    },
+    "collector_01": {
+      "height_cm": 200.0,
+      "stride_cm": 50.0,
+      "period": 1.08,
+      "name": "Құрастырушы",
+      "species": "collector"
+    },
+    "conductor_01": {
+      "height_cm": 210.0,
+      "stride_cm": 39.9,
+      "period": 1.31,
+      "name": "Жетелеуші",
+      "species": "conductor"
+    },
+    "pursuer_01": {
+      "height_cm": 245.0,
+      "stride_cm": 75.95,
+      "period": 0.93,
+      "name": "Қуғыншы",
+      "species": "pursuer"
+    },
+    "central_organism_01": {
+      "height_cm": 300.043,
+      "stride_cm": 18,
+      "period": 0.63,
+      "name": "Өзек",
+      "species": "central_organism"
+    },
+    "parasite_01": {
+      "height_cm": 45.0,
+      "stride_cm": 18,
+      "period": 0.63,
+      "name": "Құрт",
+      "species": "parasite"
+    }
+  }
+}

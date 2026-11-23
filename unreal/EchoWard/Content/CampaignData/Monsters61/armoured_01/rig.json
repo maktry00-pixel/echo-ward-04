@@ -1,0 +1,29 @@
+{
+  "id": "armoured_01",
+  "species": "armoured",
+  "height_cm": 225.0,
+  "vertex_count": 20968,
+  "triangles": 21000,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 42.75,
+  "period": 1.55,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\armoured_01\\local\\armoured_01.glb",
+  "texture_px": 2048
+}

@@ -1,0 +1,29 @@
+{
+  "id": "listener_01",
+  "species": "listener",
+  "height_cm": 184.963,
+  "vertex_count": 20129,
+  "triangles": 21000,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 38.842,
+  "period": 1.23,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\listener_01\\processed\\listener_01.glb",
+  "texture_px": 2048
+}

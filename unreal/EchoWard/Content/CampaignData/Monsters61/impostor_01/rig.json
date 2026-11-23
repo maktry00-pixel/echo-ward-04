@@ -1,0 +1,29 @@
+{
+  "id": "impostor_01",
+  "species": "impostor",
+  "height_cm": 175.0,
+  "vertex_count": 8376,
+  "triangles": 10724,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 36.75,
+  "period": 1.14,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\impostor_01\\local\\impostor_01.glb",
+  "texture_px": 2048
+}

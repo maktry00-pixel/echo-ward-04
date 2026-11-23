@@ -1,0 +1,21 @@
+{
+  "id": "parasite_01",
+  "species": "parasite",
+  "height_cm": 45.0,
+  "vertex_count": 18389,
+  "triangles": 20999,
+  "bones": [
+    "body",
+    "head",
+    "leg-1_-0.31",
+    "leg-1_-0.03",
+    "leg-1_0.27",
+    "leg1_-0.31",
+    "leg1_-0.03",
+    "leg1_0.27"
+  ],
+  "stride_cm": 18,
+  "period": 0.63,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\parasite_01\\local\\parasite_01.glb",
+  "texture_px": 2048
+}

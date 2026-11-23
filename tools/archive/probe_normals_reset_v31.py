@@ -1,0 +1,8 @@
+import bpy,json,math
+from pathlib import Path
+from mathutils import Vector
+R=Path('D:/Projects/ECHO');d=json.loads((R/'artifacts/echo_cars_v31/2022-toyota-camry-xv70-hybrid_scene.json').read_text());M=json.loads((R/'unreal/EchoWard/RawAssets/EchoCarsV31/manifest.json').read_text());row=next(a for a in M['assets'] if a['id']==1003)
+for label,f in [('normals_reset',row['file'])]:
+ bpy.ops.wm.read_factory_settings(use_empty=True);bpy.ops.import_scene.fbx(filepath=f);scene=bpy.context.scene;scene.frame_set(0);objs=[o for o in scene.objects if o.type=='MESH' and not o.hide_render]
+ for o in objs:o.data.normals_split_custom_set([(0,0,0)]*len(o.data.loops))
+ pts=[o.matrix_world@Vector(v) for o in objs for v in o.bound_box];lo=Vector([min(p[i] for p in pts) for i in range(3)]);hi=Vector([max(p[i] for p in pts) for i in range(3)]);c=(lo+hi)/2;s=hi-lo;distance=max(s.x,s.y);cam=bpy.data.objects.new('ReviewCamera',bpy.data.cameras.new('ReviewCamera'));scene.collection.objects.link(cam);cam.location=c+Vector((distance*.8,distance*.8,distance*.55));cam.rotation_euler=(c-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.clip_start=distance*.001;cam.data.clip_end=distance*30;cam.data.lens=48;scene.camera=cam;scene.render.engine='BLENDER_WORKBENCH';scene.display.shading.light='STUDIO';scene.display.shading.color_type='SINGLE';scene.display.shading.single_color=(.45,.45,.45);scene.display.shading.show_shadows=True;scene.display.shading.show_cavity=True;scene.display.shading.cavity_type='BOTH';scene.render.resolution_x=1400;scene.render.resolution_y=900;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG';scene.render.filepath=str(R/'artifacts/echo_cars_v31'/('geometry_'+label+'.png'));bpy.ops.render.render(write_still=True)

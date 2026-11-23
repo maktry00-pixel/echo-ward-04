@@ -1,0 +1,29 @@
+{
+  "id": "collector_01",
+  "species": "collector",
+  "height_cm": 200.0,
+  "vertex_count": 13791,
+  "triangles": 15794,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 50.0,
+  "period": 1.08,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\collector_01\\local\\collector_01.glb",
+  "texture_px": 2048
+}

@@ -1,0 +1,121 @@
+{
+	"checks": [
+		{
+			"name": "main_menu_has_enabled_ai_demo_button",
+			"passed": true
+		},
+		{
+			"name": "title_action_opens_demo_without_legacy_campaign",
+			"passed": true
+		},
+		{
+			"name": "astar_five_steps_through_upper_door",
+			"passed": true
+		},
+		{
+			"name": "astar_detours_through_lower_door",
+			"passed": true
+		},
+		{
+			"name": "astar_trace_matches_final_route",
+			"passed": true
+		},
+		{
+			"name": "astar_bfs_confirms_length_of_legal_detour",
+			"passed": true
+		},
+		{
+			"name": "verification_panel_opens",
+			"passed": true
+		},
+		{
+			"name": "experiment_controls_can_be_restored",
+			"passed": true
+		},
+		{
+			"name": "controls_rewind_and_advance_real_search",
+			"passed": true
+		},
+		{
+			"name": "autoplay_starts_from_trace_cursor",
+			"passed": true
+		},
+		{
+			"name": "autoplay_advances_and_can_pause",
+			"passed": true
+		},
+		{
+			"name": "end_jumps_to_result",
+			"passed": true
+		},
+		{
+			"name": "astar_reports_unreachable_with_both_doors_closed",
+			"passed": true
+		},
+		{
+			"name": "astar_bfs_independently_confirms_no_path",
+			"passed": true
+		},
+		{
+			"name": "astar_cannot_select_a_closed_door",
+			"passed": true
+		},
+		{
+			"name": "astar_user_can_move_both_endpoints",
+			"passed": true
+		},
+		{
+			"name": "csp_three_assignments_at_three_metres",
+			"passed": true
+		},
+		{
+			"name": "csp_exhaustive_search_accepts_returned_assignment",
+			"passed": true
+		},
+		{
+			"name": "csp_reports_impossible_four_metre_separation",
+			"passed": true
+		},
+		{
+			"name": "csp_exhaustive_search_proves_no_placement",
+			"passed": true
+		},
+		{
+			"name": "csp_trace_records_conflicts_and_backtracking",
+			"passed": true
+		},
+		{
+			"name": "csp_can_recover_after_invalid_constraints",
+			"passed": true
+		},
+		{
+			"name": "minimax_alpha_beta_keeps_the_same_move",
+			"passed": true
+		},
+		{
+			"name": "minimax_trace_records_candidate_moves",
+			"passed": true
+		},
+		{
+			"name": "minimax_reference_confirms_same_move_and_score",
+			"passed": true
+		},
+		{
+			"name": "minimax_depth_changes_search_cost",
+			"passed": true
+		},
+		{
+			"name": "minimax_separate_positions_are_editable",
+			"passed": true
+		},
+		{
+			"name": "back_returns_to_main_menu",
+			"passed": true
+		},
+		{
+			"name": "demo_releases_preview_on_close",
+			"passed": true
+		}
+	],
+	"success": true
+}

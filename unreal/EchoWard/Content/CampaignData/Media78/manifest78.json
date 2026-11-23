@@ -1,0 +1,19 @@
+{
+  "duration_seconds": 63,
+  "fps": 24,
+  "export_resolution": [
+    1920,
+    1080
+  ],
+  "native_resolution": [
+    1280,
+    720
+  ],
+  "native_frames": 1512,
+  "art_count": 8,
+  "game_stills": 12,
+  "game_camera_clips": 3,
+  "story": "Beka and Aruzhan together, disappearance, call, search in Ward04",
+  "audio": "Original synthesized score plus original in-game home call dialogue",
+  "disclosure": "AI still illustrations with camera movement, native Unreal camera footage. Not generated character animation."
+}

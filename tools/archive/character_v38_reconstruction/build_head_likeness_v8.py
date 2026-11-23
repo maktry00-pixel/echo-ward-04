@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path(__file__).with_name('build_head_likeness_v7.py')
+s=p.read_text(encoding='utf8')
+s=s.replace('likeness_head_v7','likeness_head_v8').replace('src.replace("v6", "v7")','src.replace("v6", "v8")')
+s=s.replace('sid=src[[33,263]];tid=tex[[33,263]]',"geomtex=tex.copy();geomtex[:,1]*=rows['open_portrait']['height']/rows['open_portrait']['width']\nsid=src[[33,263]];tid=geomtex[[33,263]]")
+s=s.replace('tu=(tid[1]-tid[0])','tu=(tid[1]-tid[0])')
+s=s.replace('target=(tex-tex[[33,263]].mean(axis=0))@tf*(np.linalg.norm(sid[1]-sid[0])/np.linalg.norm(tex[263]-tex[33]))@sf.T+sid.mean(axis=0)','target=(geomtex-geomtex[[33,263]].mean(axis=0))@tf*(np.linalg.norm(sid[1]-sid[0])/np.linalg.norm(geomtex[263]-geomtex[33]))@sf.T+sid.mean(axis=0)')
+s=s.replace('lift=.006+.023*top','lift=.006+.014*top')
+s=s.replace('length=rng.uniform(.35,.72) if front else rng.uniform(.25,.5)','length=rng.uniform(.18,.42) if front else rng.uniform(.25,.5)')
+s=s.replace('ph=phi-(.36*t+.10*math.sin(t*math.pi)) if front else phi+.08*math.sin(t*math.pi)','ph=phi-(.95*t+.18*math.sin(t*math.pi)) if front else phi+.08*math.sin(t*math.pi)')
+exec(compile(s,str(p),'exec'))

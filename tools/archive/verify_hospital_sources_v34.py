@@ -1,0 +1,7 @@
+import bpy,json,math
+from pathlib import Path
+from mathutils import Vector
+R=Path('D:/Projects/ECHO');O=R/'assets/models/hospital_v34';A=R/'artifacts/echo_hospital_sources_v34';checks=[]
+for slug,z in [('wall_door_opening',1.2),('wall_window_opening',1.5)]:
+ bpy.ops.wm.open_mainfile(filepath=str(O/slug/'model.blend'),load_ui=False,use_scripts=False);hit=bpy.context.scene.ray_cast(bpy.context.evaluated_depsgraph_get(),Vector((0,-1,z)),Vector((0,1,0)),distance=2)[0];checks.append(dict(name=slug+'_has_real_clear_aperture',passed=not hit))
+bpy.ops.wm.open_mainfile(filepath=str(O/'hospital_door/model.blend'),load_ui=False,use_scripts=False);s=bpy.context.scene;hinge=bpy.data.objects['Door_Hinge_Openable'];s.frame_set(0);closed=s.ray_cast(bpy.context.evaluated_depsgraph_get(),Vector((0,-1,1)),Vector((0,1,0)),distance=2)[0];s.frame_set(60);opened=s.ray_cast(bpy.context.evaluated_depsgraph_get(),Vector((0,-1,1)),Vector((0,1,0)),distance=2)[0];checks.append(dict(name='door_leaf_blocks_closed_and_clears_when_open',passed=closed and not opened));checks.append(dict(name='door_opens_70_degrees',passed=abs(abs(hinge.rotation_euler.z)-math.radians(70))<.001));assert all(v['passed'] for v in checks),checks;(A/'geometry_checks.json').write_text(json.dumps(dict(success=True,checks=checks),indent=2));print('HOSPITAL_GEOMETRY_PASS',len(checks))

@@ -1,0 +1,38 @@
+{
+  "source_pdf": "C:\\Users\\muhak\\Downloads\\ЭХО_полный_сюжет_и_диалоги_версия_2.pdf",
+  "source_pdf_sha256": "b87fc16bf89f329fa6461554d96499a4c4184caa140036555199c1c223698535",
+  "pages": 363,
+  "reference_only": true,
+  "runtime_changed": false,
+  "source_map_matches_current": true,
+  "chapters": 19,
+  "main_scenes": 76,
+  "legacy_scene_bindings": 78,
+  "missing_scene_ids": [],
+  "missing_placement_zones": [],
+  "side_stories": 6,
+  "alternatives": 23,
+  "notes": 96,
+  "placements": 395,
+  "placement_status_counts": {
+    "Сохранить": 100,
+    "Перенести после SCENE_01_04": 1,
+    "Исправить условие главы": 6,
+    "Перенести под дворник HERO; высоту сверить с моделью": 1,
+    "Заполнить текст": 95,
+    "Пустой контейнер; не выдаёт запас": 118,
+    "Разовый запас": 74
+  },
+  "retained_files": [
+    "data\\story_reference_v2_2026_10_28\\literary\\ПРОЧТИ.txt",
+    "data\\story_reference_v2_2026_10_28\\literary\\story_v2.json",
+    "data\\story_reference_v2_2026_10_28\\literary\\screenplay.txt",
+    "data\\story_reference_v2_2026_10_28\\literary\\full_story.txt",
+    "data\\story_reference_v2_2026_10_28\\staging\\ПРОЧТИ.txt",
+    "data\\story_reference_v2_2026_10_28\\staging\\scenario_data.json",
+    "data\\story_reference_v2_2026_10_28\\staging\\proposed_placements.csv",
+    "data\\story_reference_v2_2026_10_28\\staging\\new_supply_packs.csv",
+    "data\\story_reference_v2_2026_10_28\\staging\\scene_furniture.csv",
+    "data\\story_reference_v2_2026_10_28\\staging\\new_objects.csv"
+  ]
+}

@@ -1,0 +1,6 @@
+from pathlib import Path
+import re
+r=Path('D:/Projects/ECHO');u=r/'unreal/EchoWard';p=u/'Tools/verify_windows_package.ps1';s=p.read_text(encoding='utf-8-sig');(r/'artifacts/echo_car_quality_v32/source_before/verify_windows_package.ps1').write_text(s,encoding='utf-8');cpp=(u/'Source/EchoWard/WardSettingsMenuAssessment.cpp').read_text(encoding='utf-8');names=re.findall(r'Check\(TEXT\("([^"]+)"\)',cpp);assert len(names)==24 and len(set(names))==24
+old="    if(!$taskData.success -or  $taskData.count -lt 27 -or @($taskData.checks | Where-Object {!$_.passed}).Count){throw 'Settings menu checks failed.'}"
+new="    # Assert the named checks implemented by WardSettingsMenuAssessment, not a stale total.\n    $taskRequiredSettings=@("+','.join("'"+name+"'" for name in names)+")\n    $taskActualSettings=@($taskData.checks | ForEach-Object {$_.name})\n    $taskSettingsMissing=@($taskRequiredSettings | Where-Object {$_ -notin $taskActualSettings})\n    if(!$taskData.success -or $taskData.count -ne $taskData.checks.Count -or $taskSettingsMissing.Count -or @($taskData.checks | Where-Object {!$_.passed}).Count){throw 'Settings menu checks failed.'}"
+assert old in s;s=s.replace(old,new);p.write_text(s,encoding='utf-8');print('Required settings checks',len(names))

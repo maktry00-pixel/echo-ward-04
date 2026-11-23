@@ -1,0 +1,29 @@
+{
+  "id": "repeater_02",
+  "species": "repeater",
+  "height_cm": 180.0,
+  "vertex_count": 9317,
+  "triangles": 11604,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 30.6,
+  "period": 1.34,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\repeater_02\\local\\repeater_02.glb",
+  "texture_px": 1024
+}

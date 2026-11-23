@@ -1,0 +1,29 @@
+Poly Haven geometry and 1K/2K PBR textures
+License: CC0 1.0 Universal
+Official license: https://polyhaven.com/license
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/
+
+Powered by Poly Haven (download tools use the public API).
+
+- Steel Frame Shelves 01: James Ray Cock; 1k; https://polyhaven.com/a/steel_frame_shelves_01
+- Painted Wooden Nightstand: Kirill Sannikov; 2k; https://polyhaven.com/a/painted_wooden_nightstand
+- Wheelchair 01: Garreth Dean; 1k; https://polyhaven.com/a/wheelchair_01
+- Medical Box: Ulan Cabanilla; 2k; https://polyhaven.com/a/medical_box
+- Plastic Jerrycan: Ulan Cabanilla; 1k; https://polyhaven.com/a/plastic_jerrycan
+- Metal Office Desk: Ulan Cabanilla; 1k; https://polyhaven.com/a/metal_office_desk
+- Old Bed Frame: Luca B; 1k; https://polyhaven.com/a/old_bed_frame
+- Crowbar 01: Alexander Otterbeck; 2k; https://polyhaven.com/a/crowbar_01
+- Vintage Wooden Drawer 01: James Ray Cock; 2k; https://polyhaven.com/a/vintage_wooden_drawer_01
+- Service Pistol: Mateusz Sadek; 2k; https://polyhaven.com/a/service_pistol
+- Fish Knife: Mateusz Sadek; 2k; https://polyhaven.com/a/fish_knife
+- Circuit Board: Benny Weimer; 2k; https://polyhaven.com/a/circuit_board
+- Portable Cassette Player: Mateusz Sadek; 2k; https://polyhaven.com/a/portable_cassette_player
+- Small Plastic Torch: Abiyyu Panggalih (Abiyyu_xyz); 2k; https://polyhaven.com/a/small_plastic_torch
+- Medical Tape: Miroslav Turura; 2k; https://polyhaven.com/a/medical_tape
+- Sofa 03: Fran Calvente; 2k; https://polyhaven.com/a/sofa_03
+- School Chair 01: Ethan Place; 2k; https://polyhaven.com/a/SchoolChair_01
+- Painted Wooden Cabinet 02: Kirill Sannikov; 2k; https://polyhaven.com/a/painted_wooden_cabinet_02
+- Desk Lamp Arm 01: Yann Kervran, Kuutti Siitonen; 2k; https://polyhaven.com/a/desk_lamp_arm_01
+
+Downloaded files were checked against official API MD5 values.
+Some retained assets are archival and are not instantiated in the current game.

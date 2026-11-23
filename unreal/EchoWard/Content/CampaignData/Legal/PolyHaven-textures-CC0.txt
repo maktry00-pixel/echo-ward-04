@@ -1,0 +1,13 @@
+Poly Haven PBR materials, 2K
+CC0 1.0 Universal
+https://polyhaven.com/license
+Powered by Poly Haven (download tool uses the public API).
+
+- Terrazzo Tiles: Amal Kumar; https://polyhaven.com/a/terrazzo_tiles
+- Old Linoleum Flooring 01: Charlotte Baglioni; https://polyhaven.com/a/old_linoleum_flooring_01
+- Painted Plaster Wall: Amal Kumar; https://polyhaven.com/a/painted_plaster_wall
+- Stretch Poplin: colormass, Rico Cilliers; https://polyhaven.com/a/stretch_poplin
+- Blue Plaster Weathered: Amal Kumar; https://polyhaven.com/a/blue_plaster_weathered
+
+The hospital linen omits the original green dye map; source weave normals and roughness are used.
+Downloaded files were checked against official API MD5 values.

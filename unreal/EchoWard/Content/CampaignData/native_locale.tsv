@@ -1,0 +1,178 @@
+Вернуться в игру	Return to game	Ойынға оралу
+Выйти	Quit	Шығу
+Администратор	Administrator	Әкімші
+Камера	Camera	Камера
+Вкл	On	Қосулы
+Выкл	Off	Өшірулі
+Полноэкранный режим	Fullscreen	Толық экран
+Поле зрения	Field of view	Көру бұрышы
+Освещение окружения	Ambient lighting	Қоршаған орта жарығы
+Виньетка	Vignette	Виньетка
+Зернистость	Film grain	Түйіршіктілік
+Сила фонаря	Flashlight strength	Шам қуаты
+Громкость эффектов	Effects volume	Әсерлер дыбысы
+Музыка и атмосфера	Music and ambience	Музыка және орта дыбысы
+Инверсия мыши	Invert mouse	Тінтуір бағытын аудару
+Отдача камеры	Camera recoil	Камера серпілісі
+Плавность камеры	Camera smoothing	Камера қозғалысын жұмсарту
+Прозрачность интерфейса	HUD opacity	Интерфейс мөлдірлігі
+Подсказки задачи	Objective hints	Тапсырма нұсқаулары
+Субтитры	Subtitles	Субтитрлер
+Язык / Тіл / Language	Language / Тіл / Язык	Тіл / Language / Язык
+Сглаживание: 0/FXAA/TAA/TSR	Anti-aliasing: 0/FXAA/TAA/TSR	Тегістеу: 0/FXAA/TAA/TSR
+Загрузить игру · последнее сохранение	Load game · latest save	Ойынды жүктеу · соңғы сақталым
+Карты · в разработке	Maps · in development	Карталар · әзірленуде
+Онлайн · в разработке	Online · in development	Онлайн · әзірленуде
+Шесть ручных слотов · три автоматические контрольные точки	Six manual slots · three automatic checkpoints	Алты қолмен сақтау ұясы · үш автоматты бақылау нүктесі
+Пустой слот	Empty slot	Бос ұя
+Контрольная точка сохранена	Checkpoint saved	Бақылау нүктесі сақталды
+Сохранение отсутствует или повреждено.	Save is missing or damaged.	Сақталым жоқ немесе бүлінген.
+Не удалось записать сохранение.	Could not write the save.	Ойынды сақтау мүмкін болмады.
+Сейчас нельзя сохраняться. Отойди от опасности и закончи действие.	You cannot save now. Leave danger and finish your action.	Қазір сақтауға болмайды. Қауіптен алыстап, әрекетті аяқта.
+Последняя смена не окончена… Загрузка сохранения.	The last shift is not over… Loading save.	Соңғы ауысым әлі аяқталған жоқ… Сақталым жүктелуде.
+Снаряжение · 8 мест	Equipment · 8 slots	Жабдық · 8 орын
+Использовать	Use	Қолдану
+Убрать	Discard	Алып тастау
+В шкаф	Store	Шкафқа салу
+Взять из шкафа · 	Take from storage · 	Шкафтан алу · 
+Ключевые предметы нельзя выбросить. Патроны хранятся отдельно. X — осмотреть найденный пропуск.	Key items cannot be discarded. Ammunition is stored separately. X — inspect the staff badge.	Маңызды заттарды тастауға болмайды. Оқтар бөлек сақталады. X — табылған рұқсатнаманы қарау.
+Не хватает места или достигнут предел запаса. I — инвентарь.	Not enough space or supply limit reached. I — inventory.	Орын жеткіліксіз немесе қор шегіне жетті. I — заттар тізімі.
+ДРОБОВИК	SHOTGUN	БЫТЫРАЛЫ МЫЛТЫҚ
+ПИСТОЛЕТ	PISTOL	ТАПАНША
+Магазин пуст · R — перезарядка	Magazine empty · R — reload	Оқжатар бос · R — қайта оқтау
+Перезарядка…	Reloading…	Қайта оқталуда…
+Помповый дробовик найден. Z — сменить оружие; R — зарядить по одному патрону.	Pump shotgun found. Z — switch weapon; R — load one shell at a time.	Помпалы мылтық табылды. Z — қаруды ауыстыру; R — оқты бір-бірден салу.
+Осмотрено · C — закрыть ящик	Searched · C — close drawer	Қаралды · C — тартпаны жабу
+Осмотреть / забрать	Inspect / collect	Қарау / алу
+F — выбраться · Shift — задержать дыхание	F — leave hiding · Shift — hold breath	F — жасырынған жерден шығу · Shift — демді ұстау
+F — журнал сохранений	F — save journal	F — сақтау журналы
+F — проверить запертую дверь	F — check locked door	F — құлыпталған есікті тексеру
+V / выстрел — разбить преграду	V / shoot — break barrier	V / ату — бөгетті сындыру
+V или выстрел — разбить тонкую преграду.	V or shoot — break the thin barrier.	V немесе ату — жұқа бөгетті сындыру.
+Укреплено · удерживай K — разобрать	Barricaded · hold K — dismantle	Бекітілген · бұзу үшін K пернесін ұстап тұр
+Сначала разорви видимость. Противник видел, как ты прячешься.	Break line of sight first. The enemy saw you hide.	Алдымен жаудың көзіне түспейтін жерге бар. Ол сенің жасырынғаныңды көрді.
+F — повернуть контур / %d / 0–3	F — turn circuit / %d / 0–3	F — тізбекті бұру / %d / 0–3
+1 / 2 / 3 — отделение [%d] · удерживай F — осмотреть · C — закрыть	1 / 2 / 3 — compartment [%d] · hold F — search · C — close	1 / 2 / 3 — бөлім [%d] · F ұстап тұру — іздеу · C — жабу
+В глубине ящика что-то есть. Отпусти F, затем забери находку.	There is something inside. Release F, then collect it.	Тартпаның ішінде бірдеңе бар. F пернесін жіберіп, табылған затты ал.
+Код доступа	Access code	Кіру коды
+Карантин · допуск сотрудника	Quarantine · staff access	Карантин · қызметкер рұқсаты
+Оборот пропуска · КАРАНТИН / 417	Badge reverse · QUARANTINE / 417	Рұқсатнаманың арты · КАРАНТИН / 417
+Пропуск сотрудника. На обороте есть потёртая надпись.	Staff badge. A faded inscription is on the reverse.	Қызметкер рұқсатнамасы. Артында өше бастаған жазу бар.
+Пропуск найден. X — осмотреть; проверь оборот.	Badge found. X — inspect; check the reverse.	Рұқсатнама табылды. X — қарау; артқы бетін тексер.
+Перевернуть предмет	Turn item over	Затты аудару
+Осмотри предмет и прочитай найденные записи.	Inspect the item and read the recovered notes.	Затты қарап, табылған жазбаларды оқы.
+Проверь оборот пропуска: X → перевернуть.	Check the badge reverse: X → turn over.	Рұқсатнаманың артын тексер: X → аудару.
+Доступ отклонён. Проверь оборот пропуска.	Access denied. Check the badge reverse.	Кіруге рұқсат жоқ. Рұқсатнаманың артын тексер.
+Подтвердить	Confirm	Растау
+Повернуть	Rotate	Бұру
+Проверить совмещение	Check alignment	Сәйкестікті тексеру
+Рентген · совмести экспозиции	X-ray · align exposures	Рентген · кескіндерді сәйкестендір
+Смещение X: %.0f   Y: %.0f   Поворот: %d°	Offset X: %.0f   Y: %.0f   Rotation: %d°	X ығысуы: %.0f   Y: %.0f   Бұрылыс: %d°
+Контуры не совпадают: совмести снимок и поверни плёнку.	The outlines do not match: align the image and rotate the film.	Кескін жиектері сәйкес емес: суретті жылжытып, таспаны бұр.
+Процедурная · протокол пациента 04	Treatment room · patient 04 protocol	Емшара бөлмесі · 04 емделушінің хаттамасы
+Воспроизведи последовательность из карты наблюдения. Ошибка привлекает противников.	Follow the observation chart sequence. Mistakes attract enemies.	Бақылау картасындағы реттілікті орында. Қате жауларды тартады.
+Протокол нарушен. Посмотри порядок в карте пациента.	Protocol violated. Check the patient chart order.	Хаттама бұзылды. Емделуші картасындағы реттілікті тексер.
+Выполнено шагов: %d / 3	Steps completed: %d / 3	Орындалған қадамдар: %d / 3
+Пациент 04: охлаждение → седативное → разблокировка.	Patient 04: cooling → sedative → release.	04 емделуші: салқындату → тыныштандырғыш → бұғаттан шығару.
+Сначала прочти карту в наблюдательной.	First read the chart in observation.	Алдымен бақылау бөлмесіндегі картаны оқы.
+АВАРИЙНОЕ ДАВЛЕНИЕ · найди красный вентиль · удерживай F	EMERGENCY PRESSURE · find the red valve · hold F	АПАТТЫ ҚЫСЫМ · қызыл бұранданы тап · F ұстап тұр
+Аварийный щиток	Emergency panel	Апаттық қалқан
+План отделения	Ward map	Бөлім картасы
+План отделения 04	Ward 04 map	04 бөлім картасы
+Найди план в приёмной.	Find the map in reception.	Қабылдау бөлмесінен картаны тап.
+Верхний этаж	Upper floor	Жоғарғы қабат
+Нижний сектор	Lower sector	Төменгі сектор
+Колесо мыши — масштаб · перетащи план мышью · ! — задача · S — сохранение	Mouse wheel — zoom · drag to pan · ! — objective · S — save	Тінтуір дөңгелегі — масштаб · картаны сүйре · ! — тапсырма · S — сақтау
+Ты заперт в отделении 04. Найди план и оружие в приёмной.	You are locked in Ward 04. Find the map and weapon in reception.	Сен 04 бөлімде қамалып қалдың. Қабылдау бөлмесінен карта мен қаруды тап.
+Найди предохранитель · палата 05 справа	Find the fuse · ward 05 on the right	Сақтандырғышты тап · оң жақтағы 05 палата
+Запасной предохранитель оставили в палате 05 справа.	The spare fuse was left in ward 05 on the right.	Қосалқы сақтандырғыш оң жақтағы 05 палатада қалған.
+Восстанови питание · служебное крыло слева	Restore power · service wing on the left	Қуатты қалпына келтір · сол жақтағы қызметтік қанат
+Найди пропуск сотрудника · архив справа	Find the staff badge · archive on the right	Қызметкер рұқсатнамасын тап · оң жақтағы мұрағат
+Включи три аварийных узла · исследовательское крыло	Activate three emergency nodes · research wing	Үш апаттық торапты қос · зерттеу қанаты
+Нужны питание и пропуск сотрудника.	Power and a staff badge are required.	Қуат пен қызметкер рұқсатнамасы қажет.
+Сначала включи три аварийных узла.	Activate the three emergency nodes first.	Алдымен үш апаттық торапты қос.
+Охранный узел заблокирован. Уничтожь хранителя операционной.	Security node locked. Defeat the operating theatre guardian.	Күзет торабы бұғатталған. Операция бөлмесінің сақшысын жең.
+Броня держит. Уйди от рывка и стреляй в открытую грудь.	Armour holds. Dodge the charge and shoot the exposed chest.	Сауыт берік. Ұмтылыстан жалтарып, ашылған кеудеге ат.
+Очистка реактора · лестница за операционной → нижний сектор	Reactor purge · stairs behind the theatre → lower sector	Реакторды тазарту · операция бөлмесінің артындағы баспалдақ → төменгі сектор
+Жилой корпус · переключай питание, найди инструмент и освободи лифт	Residential wing · switch power, find the tool and release the lift	Тұрғын корпус · қуатты ауыстыр, құралды тауып, лифтіні босат
+Нужны модуль из западной ветки и питание востока.	A module from the west wing and power in the east are required.	Батыс қанаттағы модуль мен шығыс қуаты қажет.
+Обесточь запад и вернись через служебный обход с монтажным инструментом.	Cut power to the west and return through the service route with the prybar.	Батыстың қуатын өшіріп, монтаж құралымен қызметтік айналма жолдан қайт.
+Диагностика · рентген → наблюдение → процедурная	Diagnostics · X-ray → observation → treatment	Диагностика · рентген → бақылау → емшара
+Изолятор 17 · браслет → генератор → журнал → блокировка	Isolation 17 · wristband → generator → log → lockdown	17 оқшаулау бөлімі · білезік → генератор → журнал → бұғаттау
+Линия уже выбрана. Резерва на вторую нет.	A circuit is already selected. There is no reserve for another.	Желі таңдалды. Екіншісіне қуат қоры жетпейді.
+Регистратору нужно питание генератора.	The recorder needs generator power.	Тіркеуішке генератор қуаты қажет.
+Сначала выгрузи журнал из регистратора.	Download the recorder log first.	Алдымен тіркеуіштен журналды жүктеп ал.
+Хозяйственный корпус открывается после изолятора 17.	The service annex opens after Isolation 17.	Шаруашылық корпус 17 оқшаулау бөлімінен кейін ашылады.
+Хозяйственный корпус · насос → котельная → архив → связь снаружи	Service annex · pump → boiler → archive → outside contact	Шаруашылық корпус · сорғы → қазандық → мұрағат → сыртқы байланыс
+Журнал слесаря: контуры А — 2, Б — 1, В — 3.	Maintenance log: circuits A — 2, B — 1, C — 3.	Слесарь журналы: А — 2, Б — 1, В — 3 тізбектері.
+Журнал слесаря: контуры котла А — 2, Б — 1, В — 3.	Maintenance log: boiler circuits A — 2, B — 1, C — 3.	Слесарь журналы: қазандық тізбектері А — 2, Б — 1, В — 3.
+Дежурная волна — 104.8 МГц.	Duty frequency — 104.8 MHz.	Кезекші жиілік — 104.8 МГц.
+Маршрут 12-Б: санитарный выход. Дежурная волна 104.8 МГц.	Route 12-B: sanitary exit. Duty frequency 104.8 MHz.	12-Б бағыты: санитарлық шығу. Кезекші жиілік 104.8 МГц.
+Управление выходом	Exit control	Шығуды басқару
+Сначала команда терминала карантина, затем резервный ввод.	Use the quarantine terminal first, then the backup feed.	Алдымен карантин терминалын, содан кейін қосалқы кірісті іске қос.
+Главная заслонка упала! Обойди через диагностику, сбрось ввод в щитовой и открой рукоять у главного входа.	The main shutter fell! Detour through diagnostics, reset the panel and turn the handle at the main entrance.	Негізгі қақпа жабылды! Диагностика арқылы өтіп, қалқанды қалпына келтір де, негізгі кіреберістегі тұтқаны аш.
+Аварийный ввод → рукоять главной заслонки	Backup feed → main shutter handle	Апаттық кіріс → негізгі қақпа тұтқасы
+Заслонка открыта · вернись к главному входу	Shutter open · return to the main entrance	Қақпа ашық · негізгі кіреберіске қайт
+ЭВАКУАЦИЯ  %02d:%02d	EVACUATION  %02d:%02d	ЭВАКУАЦИЯ  %02d:%02d
+Дежурная · тихая зона. Здесь есть журнал сохранений и личный шкаф.	Staff room · quiet zone. A save journal and personal storage are here.	Кезекші бөлме · тыныш аймақ. Мұнда сақтау журналы мен жеке шкаф бар.
+Выживший	Survivor	Аман қалған
+Свидетель последней смены	Witness of the last shift	Соңғы ауысым куәгері
+Время: %02d:%02d · найдено: %d · противников: %d · точность: %.0f%%	Time: %02d:%02d · found: %d · enemies: %d · accuracy: %.0f%%	Уақыт: %02d:%02d · табылғаны: %d · жаулар: %d · дәлдік: %.0f%%
+Для знакомства с историей: больше припасов, медленные противники.	For the story: more supplies and slower enemies.	Оқиғамен танысу үшін: көбірек қор, баяу жаулар.
+Для первого прохождения: исследование и осторожный бой.	For a first playthrough: exploration and cautious combat.	Алғашқы өту үшін: зерттеу және сақтықпен шайқасу.
+Для опытных игроков: быстрые противники, меньше патронов.	For experienced players: faster enemies and less ammunition.	Тәжірибелі ойыншыларға: жылдам жаулар, аз оқ.
+Для тех, кто знает отделение: минимальный запас и короткая передышка.	For those who know the ward: minimal supplies and brief respite.	Бөлімді білетіндерге: ең аз қор және қысқа демалыс.
+Ночная смена: запись сохранена.	Night shift: recording collected.	Түнгі ауысым: жазба сақталды.
+Материалы загружаются	Loading materials	Материалдар жүктелуде
+Пароль	Password	Құпиясөз
+Режим администратора · свободная камера и проверка прохождения	Administrator mode · free camera and playthrough checks	Әкімші режимі · еркін камера және ойынды өту тексерісі
+Включить режим администратора	Enable administrator mode	Әкімші режимін қосу
+Вернуться к персонажу	Return to character	Кейіпкерге оралу
+Запустить агента прохождения	Start playthrough agent	Ойынды өтетін агентті іске қосу
+Остановить агента	Stop agent	Агентті тоқтату
+Управление персонажем восстановлено	Character control restored	Кейіпкерді басқару қалпына келді
+Агент остановлен.	Agent stopped.	Агент тоқтатылды.
+Маршрут завершён	Route completed	Бағыт аяқталды
+Агент начал прохождение. Персонаж уязвим; при гибели загрузится последнее сохранение.	Agent started. The character remains vulnerable; death reloads the latest save.	Агент ойынды өтуді бастады. Кейіпкер осал; қаза тапса, соңғы сақталым жүктеледі.
+Камера администратора · F9 — агент · F10 — вернуться	Administrator camera · F9 — agent · F10 — return	Әкімші камерасы · F9 — агент · F10 — оралу
+АДМИНИСТРАТОР · F9 — агент · F10 — персонаж	ADMINISTRATOR · F9 — agent · F10 — character	ӘКІМШІ · F9 — агент · F10 — кейіпкер
+АДМИНИСТРАТОР · АГЕНТ / 	ADMINISTRATOR · AGENT / 	ӘКІМШІ · АГЕНТ / 
+← Назад	< Back	< Артқа
+◉ Сохранение	Saving	Сақталуда
+Служебный пистолет	Service pistol	Қызметтік тапанша
+Помповый дробовик	Pump shotgun	Помпалы мылтық
+Патроны	Pistol ammunition	Тапанша оқтары
+Патроны дробовика	Shotgun shells	Мылтық оқтары
+Аптечка	First aid kit	Дәрі қобдишасы
+Батарея	Battery	Батарея
+Бутылка	Bottle	Бөтелке
+Доски	Boards	Тақтайлар
+Предохранитель	Fuse	Сақтандырғыш
+Пропуск сотрудника	Staff badge	Қызметкер рұқсатнамасы
+Топливо	Fuel	Жанармай
+Хладагент	Coolant	Салқындатқыш
+Монтажный инструмент	Prybar	Монтаж құралы
+Модуль лифта	Lift module	Лифт модулі
+Контактный блок	Contact block	Түйіспе блогы
+Браслет пациента	Patient wristband	Емделуші білезігі
+Маховик	Valve wheel	Бұранда дөңгелегі
+Повторить последнюю запись	Replay last recording	Соңғы жазбаны қайта тыңдау
+Перетащи плёнку мышью. Совмести контуры и метки.	Drag the film with the mouse. Match the outlines and markers.	Таспаны тінтуірмен сүйре. Кескіндер мен белгілерді сәйкестендір.
+Оружие и припасы занимают 8 ячеек. Патроны: 24 в ячейке; дробь: 8. Документы хранятся отдельно. Оставленные припасы можно подобрать снова.	Weapons and supplies use 8 slots. Pistol ammunition stacks to 24; shells to 8. Documents are separate. Dropped supplies can be picked up again.	Қару мен қор 8 ұяны алады. Тапанша оғы бір ұяда 24-тен, мылтық оғы 8-ден сақталады. Құжаттар бөлек. Қалдырылған қорды қайта алуға болады.
+Unreal: M — план · I — инвентарь · J — записи · F5 — быстрое сохранение · Q — рывок · E — вспышка · F9 — агент администратора · F10 — выход из свободной камеры	Unreal: M — map · I — inventory · J — notes · F5 — quick save · Q — dodge · E — flash · F9 — administrator agent · F10 — leave free camera	Unreal: M — карта · I — заттар · J — жазбалар · F5 — жылдам сақтау · Q — жалтару · E — жарқыл · F9 — әкімші агенті · F10 — еркін камерадан шығу
+Архив 17: людей оставили внутри намеренно. Копия приказа сохранена.	Archive 17: the people were deliberately left inside. A copy of the order is preserved.	17 мұрағат: адамдар әдейі іште қалдырылған. Бұйрық көшірмесі сақталды.
+Врач знал о побеге пациента. Ирина вывела людей через служебный вход. Ты забираешь доказательства для её семьи.	The doctor knew about the patient's escape. Irina led people through the service entrance. You take the evidence for her family.	Дәрігер емделушінің қашатынын білген. Ирина адамдарды қызметтік кіреберістен шығарған. Сен оның отбасына дәлелдерді алып кетесің.
+Журнал: Ирина не покидала отделение. Приказ подписан врачом.	Log: Irina never left the ward. The doctor signed the order.	Журнал: Ирина бөлімнен кетпеген. Бұйрыққа дәрігер қол қойған.
+Импортировано ранних сохранений: %d. Исходные файлы Godot сохранены.	Early saves imported: %d. Original Godot files are preserved.	Импортталған бастапқы сақталымдар: %d. Godot түпнұсқа файлдары сақталды.
+Ирина: «Мою смену стёрли. В журнале переводов осталась строка — ищи в наблюдательной».	Irina: “My shift was erased. One entry remains in the transfer log — look in observation.”	Ирина: «Менің ауысымымды өшіріп тастаған. Ауыстыру журналында бір жол қалған — бақылау бөлмесінен ізде».
+Пациент 17 пытался вывести людей через душевые. Его подпись есть в журнале.	Patient 17 tried to lead people through the showers. His signature is in the log.	17 емделуші адамдарды душ бөлмелері арқылы шығармақ болған. Оның қолы журналда бар.
+Приказ о закрытии камер поступил до аварии. Дневник и отчёт открывают архив.	The order to lock the cells arrived before the accident. The diary and report unlock the archive.	Камераларды жабу бұйрығы апаттан бұрын түскен. Күнделік пен есеп мұрағатты ашады.
+
+В РАЗРАБОТКЕ	IN DEVELOPMENT	ӘЗІРЛЕНУДЕ
+Трейлер	Trailer	Трейлер
+Скриншоты	Screenshots	Скриншоттар
+ОДНА НОЧЬ. ДВА МАРШРУТА. ОДИН ВЫХОД.	ONE NIGHT. TWO ROUTES. ONE WAY OUT.	БІР ТҮН. ЕКІ БАҒЫТ. БІР ШЫҒУ ЖОЛЫ.
+Трейлер · камера наблюдения 04	Trailer · surveillance camera 04	Трейлер · 04-бақылау камерасы
+Скриншоты · отделение 04	Screenshots · Ward 04	Скриншоттар · 04-бөлімше
+В подготовке. Здесь появится короткая запись из коридора больницы.	In production. A short surveillance recording from the hospital corridor will appear here.	Дайындалуда. Мұнда аурухана дәлізінен қысқа бақылау жазбасы пайда болады.
+Кадры из текущей версии игры.	Frames from the current game build.	Ойынның қазіргі нұсқасынан алынған кадрлар.

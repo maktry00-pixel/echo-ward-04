@@ -1,0 +1,17 @@
+{
+  "id": "central_organism_01",
+  "species": "central_organism",
+  "height_cm": 300.043,
+  "vertex_count": 25269,
+  "triangles": 21000,
+  "bones": [
+    "section0",
+    "section1",
+    "section2",
+    "section3"
+  ],
+  "stride_cm": 18,
+  "period": 0.63,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\central_organism_01\\local\\central_organism_01.glb",
+  "texture_px": 2048
+}

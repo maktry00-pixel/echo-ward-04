@@ -1,0 +1,29 @@
+{
+  "id": "stitched_01",
+  "species": "stitched",
+  "height_cm": 235.027,
+  "vertex_count": 23778,
+  "triangles": 21000,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 54.056,
+  "period": 1.33,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\stitched_01\\processed\\stitched_01.glb",
+  "texture_px": 2048
+}

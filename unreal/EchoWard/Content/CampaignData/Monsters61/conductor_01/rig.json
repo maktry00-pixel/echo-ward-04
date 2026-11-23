@@ -1,0 +1,29 @@
+{
+  "id": "conductor_01",
+  "species": "conductor",
+  "height_cm": 210.0,
+  "vertex_count": 7090,
+  "triangles": 9204,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 39.9,
+  "period": 1.31,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\conductor_01\\local\\conductor_01.glb",
+  "texture_px": 2048
+}

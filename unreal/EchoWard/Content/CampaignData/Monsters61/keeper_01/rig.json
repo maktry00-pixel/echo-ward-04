@@ -1,0 +1,29 @@
+{
+  "id": "keeper_01",
+  "species": "keeper",
+  "height_cm": 215.0,
+  "vertex_count": 15248,
+  "triangles": 17480,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 51.6,
+  "period": 1.12,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\keeper_01\\local\\keeper_01.glb",
+  "texture_px": 2048
+}

@@ -1,0 +1,29 @@
+{
+  "id": "carrier_01",
+  "species": "carrier",
+  "height_cm": 185.0,
+  "vertex_count": 16181,
+  "triangles": 17984,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 40.7,
+  "period": 1.28,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\carrier_01\\local\\carrier_01.glb",
+  "texture_px": 1024
+}

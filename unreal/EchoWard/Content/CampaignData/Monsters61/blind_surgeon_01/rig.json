@@ -1,0 +1,29 @@
+{
+  "id": "blind_surgeon_01",
+  "species": "blind_surgeon",
+  "height_cm": 215.0,
+  "vertex_count": 13354,
+  "triangles": 15808,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 51.6,
+  "period": 1.08,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\blind_surgeon_01\\local\\blind_surgeon_01.glb",
+  "texture_px": 2048
+}

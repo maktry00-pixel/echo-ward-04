@@ -1,0 +1,2476 @@
+{
+  "version": 31,
+  "native_meshes": 76,
+  "source": "All 32 user-provided archives in assets/models/cars; originals preserved.",
+  "units": "m except explicitly named cm fields",
+  "vehicles": {
+    "2009-volkswagen-amarok-lp": {
+      "slug": "2009-volkswagen-amarok-lp",
+      "title": "2009 volkswagen amarok lp",
+      "body": 1000,
+      "glass": 1100,
+      "bounds_cm": [
+        [
+          -262.6276550292969,
+          -112.75242614746094,
+          0.0
+        ],
+        [
+          262.62762451171875,
+          112.75242614746094,
+          180.07217407226562
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2016-volkswagen-golf-gti-clubsport-mk7": {
+      "slug": "2016-volkswagen-golf-gti-clubsport-mk7",
+      "title": "2016 volkswagen golf gti clubsport mk7",
+      "body": 1001,
+      "glass": 1101,
+      "bounds_cm": [
+        [
+          -213.62989807128906,
+          -102.47767639160156,
+          2.384185791015625e-07
+        ],
+        [
+          213.6298828125,
+          102.47767639160156,
+          146.28323364257812
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2020-volkswagen-polo-jetta-va3": {
+      "slug": "2020-volkswagen-polo-jetta-va3",
+      "title": "2020 volkswagen polo jetta va3",
+      "body": 1002,
+      "glass": 1102,
+      "bounds_cm": [
+        [
+          -223.444091796875,
+          -98.65302276611328,
+          0.0
+        ],
+        [
+          223.44407653808594,
+          98.65302276611328,
+          159.1745147705078
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2022-toyota-camry-xv70-hybrid": {
+      "slug": "2022-toyota-camry-xv70-hybrid",
+      "title": "2022 toyota camry xv70 hybrid",
+      "body": 1003,
+      "glass": 1103,
+      "bounds_cm": [
+        [
+          -244.75083923339844,
+          -104.81710815429688,
+          0.0
+        ],
+        [
+          244.75082397460938,
+          104.81710052490234,
+          144.0074462890625
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2023-bmw-m3-touring": {
+      "slug": "2023-bmw-m3-touring",
+      "title": "2023 bmw m3 touring",
+      "body": 1004,
+      "glass": 1104,
+      "bounds_cm": [
+        [
+          -239.76535034179688,
+          -103.86907958984375,
+          0.0
+        ],
+        [
+          239.7653350830078,
+          103.86907958984375,
+          146.52000427246094
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2023-toyota-gr-corolla": {
+      "slug": "2023-toyota-gr-corolla",
+      "title": "2023 toyota gr corolla",
+      "body": 1005,
+      "glass": 1105,
+      "bounds_cm": [
+        [
+          -220.5,
+          -103.48356628417969,
+          0.0
+        ],
+        [
+          220.5,
+          103.48357391357422,
+          149.52581787109375
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2024-volkswagen-jetta": {
+      "slug": "2024-volkswagen-jetta",
+      "title": "2024 volkswagen jetta",
+      "body": 1006,
+      "glass": 1106,
+      "bounds_cm": [
+        [
+          -237.2004852294922,
+          -103.36741638183594,
+          0.0
+        ],
+        [
+          237.2004852294922,
+          103.36742401123047,
+          147.259765625
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": false
+      }
+    },
+    "2025-bentley-continental-gt-speed": {
+      "slug": "2025-bentley-continental-gt-speed",
+      "title": "2025 bentley continental gt speed",
+      "body": 1007,
+      "glass": 1107,
+      "bounds_cm": [
+        [
+          -243.57789611816406,
+          -110.1997299194336,
+          5.960464477539063e-08
+        ],
+        [
+          243.57789611816406,
+          110.1997299194336,
+          141.44342041015625
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": true
+      }
+    },
+    "2025-bmw-330i-xdrive": {
+      "slug": "2025-bmw-330i-xdrive",
+      "title": "2025 bmw 330i xdrive",
+      "body": 1008,
+      "glass": 1108,
+      "bounds_cm": [
+        [
+          -235.64454650878906,
+          -103.67192840576172,
+          0.0
+        ],
+        [
+          235.64454650878906,
+          103.67192840576172,
+          145.11337280273438
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "2025-toyota-camry-xv80-hybrid": {
+      "slug": "2025-toyota-camry-xv80-hybrid",
+      "title": "2025 toyota camry xv80 hybrid",
+      "body": 1009,
+      "glass": 1109,
+      "bounds_cm": [
+        [
+          -246.42654418945312,
+          -104.69071197509766,
+          0.0
+        ],
+        [
+          246.42652893066406,
+          104.69070434570312,
+          144.40780639648438
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": true
+      }
+    },
+    "2025-toyota-fortuner-sigma-4-neo-drive": {
+      "slug": "2025-toyota-fortuner-sigma-4-neo-drive",
+      "title": "2025 toyota fortuner sigma 4 neo drive",
+      "body": 1010,
+      "glass": 1110,
+      "bounds_cm": [
+        [
+          -240.11553955078125,
+          -103.79360961914062,
+          0.0
+        ],
+        [
+          240.1155548095703,
+          103.79361724853516,
+          180.73365783691406
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": true
+      }
+    },
+    "auto-mezzanine-deck-trailer": {
+      "slug": "auto-mezzanine-deck-trailer",
+      "title": "auto mezzanine deck trailer",
+      "body": 1011,
+      "glass": 1111,
+      "bounds_cm": [
+        [
+          -870.738525390625,
+          -200.17892456054688,
+          0.0
+        ],
+        [
+          870.7384033203125,
+          200.1789093017578,
+          432.41082763671875
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "bmw-e34-stance-style": {
+      "slug": "bmw-e34-stance-style",
+      "title": "bmw e34 stance style",
+      "body": 1012,
+      "glass": 1112,
+      "bounds_cm": [
+        [
+          -236.76756286621094,
+          -93.88265991210938,
+          0.0
+        ],
+        [
+          236.76756286621094,
+          93.8826675415039,
+          142.86337280273438
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "chevrolet-camaro-ss-race-car": {
+      "slug": "chevrolet-camaro-ss-race-car",
+      "title": "chevrolet camaro ss race car",
+      "body": 1013,
+      "glass": 0,
+      "bounds_cm": [
+        [
+          -240.54327392578125,
+          -95.55390930175781,
+          3.814697265625e-06
+        ],
+        [
+          240.54327392578125,
+          95.55390167236328,
+          131.3601837158203
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "chevrolet-caprice-police-car-94-free-asset": {
+      "slug": "chevrolet-caprice-police-car-94-free-asset",
+      "title": "chevrolet caprice police car 94 free asset",
+      "body": 1014,
+      "glass": 1114,
+      "bounds_cm": [
+        [
+          -273.2459716796875,
+          -102.99099731445312,
+          3.814697265625e-06
+        ],
+        [
+          273.2459716796875,
+          102.99099731445312,
+          159.52273559570312
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": true
+      }
+    },
+    "court-porsche-test": {
+      "slug": "court-porsche-test",
+      "title": "court porsche test",
+      "body": 1015,
+      "glass": 1115,
+      "bounds_cm": [
+        [
+          -219.11817932128906,
+          -99.04098510742188,
+          -7.62939453125e-06
+        ],
+        [
+          219.11817932128906,
+          99.04104614257812,
+          125.85089111328125
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "free-1975-porsche-911-930-turbo": {
+      "slug": "free-1975-porsche-911-930-turbo",
+      "title": "free 1975 porsche 911 930 turbo",
+      "body": 1016,
+      "glass": 1116,
+      "bounds_cm": [
+        [
+          -214.49998474121094,
+          -95.1891098022461,
+          1.9073486328125e-06
+        ],
+        [
+          214.49998474121094,
+          95.1891098022461,
+          164.31015014648438
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "gls-van": {
+      "slug": "gls-van",
+      "title": "gls van",
+      "body": 1017,
+      "glass": 0,
+      "bounds_cm": [
+        [
+          -340.0,
+          -185.04074096679688,
+          0.0
+        ],
+        [
+          340.0,
+          185.04074096679688,
+          226.79896545410156
+        ]
+      ],
+      "point_cloud_reconstruction": true,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "gmc-savana-2003": {
+      "slug": "gmc-savana-2003",
+      "title": "gmc savana 2003",
+      "body": 1018,
+      "glass": 1118,
+      "bounds_cm": [
+        [
+          -286.1419372558594,
+          -117.4576187133789,
+          0.0
+        ],
+        [
+          286.1419677734375,
+          117.45762634277344,
+          214.89096069335938
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "iveco-daily-van-2014": {
+      "slug": "iveco-daily-van-2014",
+      "title": "iveco daily van 2014",
+      "body": 1019,
+      "glass": 1119,
+      "bounds_cm": [
+        [
+          -365.15869140625,
+          -162.1627655029297,
+          0.0
+        ],
+        [
+          365.15869140625,
+          162.1627655029297,
+          274.5128479003906
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": false
+      }
+    },
+    "kia-carnival": {
+      "slug": "kia-carnival",
+      "title": "kia carnival",
+      "body": 1020,
+      "glass": 1120,
+      "bounds_cm": [
+        [
+          -258.6208801269531,
+          -113.88082885742188,
+          0.0
+        ],
+        [
+          258.620849609375,
+          113.88081359863281,
+          179.81211853027344
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [
+        3020
+      ],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "kia-seltos-2022": {
+      "slug": "kia-seltos-2022",
+      "title": "kia seltos 2022",
+      "body": 1021,
+      "glass": 1121,
+      "bounds_cm": [
+        [
+          -218.7406005859375,
+          -101.41299438476562,
+          3.814697265625e-06
+        ],
+        [
+          218.74057006835938,
+          101.41299438476562,
+          165.41885375976562
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [
+        3021
+      ],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": true
+      }
+    },
+    "mercedes-amg-g900-by-brabus": {
+      "slug": "mercedes-amg-g900-by-brabus",
+      "title": "mercedes amg g900 by brabus",
+      "body": 1022,
+      "glass": 1122,
+      "bounds_cm": [
+        [
+          -240.3614501953125,
+          -109.96986389160156,
+          0.0
+        ],
+        [
+          240.36146545410156,
+          109.96987915039062,
+          203.85723876953125
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [
+        3022
+      ],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "mercedes-benz-c-class-w206-amg-line-2022": {
+      "slug": "mercedes-benz-c-class-w206-amg-line-2022",
+      "title": "mercedes benz c class w206 amg line 2022",
+      "body": 1023,
+      "glass": 1123,
+      "bounds_cm": [
+        [
+          -236.94834899902344,
+          -104.48448944091797,
+          0.0
+        ],
+        [
+          236.9483184814453,
+          104.48448944091797,
+          144.15859985351562
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "mercedes-benz-g-class-w263": {
+      "slug": "mercedes-benz-g-class-w263",
+      "title": "mercedes benz g class w263",
+      "body": 1024,
+      "glass": 1124,
+      "bounds_cm": [
+        [
+          -241.00001525878906,
+          -107.52520751953125,
+          -3.814697265625e-06
+        ],
+        [
+          240.99998474121094,
+          107.52522277832031,
+          201.48765563964844
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "mercedes-benz-maybach-2022": {
+      "slug": "mercedes-benz-maybach-2022",
+      "title": "mercedes benz maybach 2022",
+      "body": 1025,
+      "glass": 1125,
+      "bounds_cm": [
+        [
+          -272.83294677734375,
+          -107.95779418945312,
+          -3.725290298461914e-09
+        ],
+        [
+          272.83294677734375,
+          107.95779418945312,
+          153.01220703125
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "mercedes-e-class-w212": {
+      "slug": "mercedes-e-class-w212",
+      "title": "mercedes e class w212",
+      "body": 1026,
+      "glass": 1126,
+      "bounds_cm": [
+        [
+          -243.54327392578125,
+          -107.29694366455078,
+          0.0
+        ],
+        [
+          243.54327392578125,
+          107.29694366455078,
+          144.87744140625
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": true,
+        "steering": true
+      }
+    },
+    "police-car-suv": {
+      "slug": "police-car-suv",
+      "title": "police car suv",
+      "body": 1027,
+      "glass": 0,
+      "bounds_cm": [
+        [
+          -252.50001525878906,
+          -111.18132019042969,
+          0.0
+        ],
+        [
+          252.50001525878906,
+          111.18132019042969,
+          170.79457092285156
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "shvan-92-ambulance-low-poly-model": {
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "title": "shvan 92 ambulance low poly model",
+      "body": 1028,
+      "glass": 1128,
+      "bounds_cm": [
+        [
+          -250.99366760253906,
+          -117.4360580444336,
+          0.0
+        ],
+        [
+          250.99366760253906,
+          117.43605041503906,
+          226.12106323242188
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": true
+      }
+    },
+    "tata-signa-cargo-truck-low-poly-game-ready-pbr": {
+      "slug": "tata-signa-cargo-truck-low-poly-game-ready-pbr",
+      "title": "tata signa cargo truck low poly game ready pbr",
+      "body": 1029,
+      "glass": 0,
+      "bounds_cm": [
+        [
+          -763.750244140625,
+          -123.5224380493164,
+          0.0
+        ],
+        [
+          763.7501831054688,
+          123.52244567871094,
+          374.4114990234375
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": false,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "toyots-camry-v45-2011": {
+      "slug": "toyots-camry-v45-2011",
+      "title": "toyots camry v45 2011",
+      "body": 1030,
+      "glass": 1130,
+      "bounds_cm": [
+        [
+          -245.93898010253906,
+          -103.02992248535156,
+          3.814697265625e-06
+        ],
+        [
+          245.93898010253906,
+          103.02992248535156,
+          152.82211303710938
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [],
+      "tint33": true,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": false
+      }
+    },
+    "volkswagen-crafter": {
+      "slug": "volkswagen-crafter",
+      "title": "volkswagen crafter",
+      "body": 1031,
+      "glass": 1131,
+      "bounds_cm": [
+        [
+          -281.20782470703125,
+          -91.21336364746094,
+          0.0
+        ],
+        [
+          281.2078552246094,
+          91.2133560180664,
+          200.82437133789062
+        ]
+      ],
+      "point_cloud_reconstruction": false,
+      "body_extra": [
+        3031
+      ],
+      "tint33": false,
+      "interior_evidence33": {
+        "seats": true,
+        "dashboard": false,
+        "steering": true
+      }
+    }
+  },
+  "hero": {
+    "slug": "mercedes-e-class-w212",
+    "title": "mercedes e class w212",
+    "archive": "mercedes-e-class-w212.zip",
+    "archive_sha256": "b2aaa0e0d37bd76374fe90a4e82b2116a185db3ee1d30f105a3fdfe880f91937",
+    "body": 1026,
+    "glass": 1126,
+    "bounds_cm": [
+      [
+        -243.54327392578125,
+        -107.29694366455078,
+        0.0
+      ],
+      [
+        243.54327392578125,
+        107.29694366455078,
+        144.87744140625
+      ]
+    ],
+    "scale_correction": 1,
+    "source_yaw_degrees": 90.0,
+    "point_cloud_reconstruction": false,
+    "hero_parts": [
+      {
+        "name": "Body",
+        "model": 2000,
+        "pivot_cm": [
+          0,
+          0,
+          0
+        ],
+        "axis": "none",
+        "open_degrees": 0
+      },
+      {
+        "name": "DoorFL",
+        "model": 2001,
+        "pivot_cm": [
+          98.02879333496094,
+          -90.97138977050781,
+          73.96158599853516
+        ],
+        "axis": "yaw",
+        "open_degrees": 65
+      },
+      {
+        "name": "DoorFR",
+        "model": 2002,
+        "pivot_cm": [
+          98.0287857055664,
+          90.97140502929688,
+          73.96158599853516
+        ],
+        "axis": "yaw",
+        "open_degrees": -65
+      },
+      {
+        "name": "DoorRL",
+        "model": 2003,
+        "pivot_cm": [
+          -15.470901489257812,
+          -89.70869445800781,
+          54.140594482421875
+        ],
+        "axis": "yaw",
+        "open_degrees": 65
+      },
+      {
+        "name": "DoorRR",
+        "model": 2004,
+        "pivot_cm": [
+          -15.470909118652344,
+          89.70869445800781,
+          54.140594482421875
+        ],
+        "axis": "yaw",
+        "open_degrees": -65
+      },
+      {
+        "name": "Hood",
+        "model": 2005,
+        "pivot_cm": [
+          94.12370300292969,
+          3.7137897379579954e-06,
+          93.59548950195312
+        ],
+        "axis": "pitch",
+        "open_degrees": 55
+      },
+      {
+        "name": "Trunk",
+        "model": 2006,
+        "pivot_cm": [
+          -171.1149139404297,
+          -7.880157681938726e-06,
+          102.31170654296875
+        ],
+        "axis": "pitch",
+        "open_degrees": -55
+      },
+      {
+        "name": "WheelFL",
+        "model": 2007,
+        "pivot_cm": [
+          157.21913146972656,
+          -76.70764923095703,
+          32.93206787109375
+        ],
+        "axis": "pitch",
+        "open_degrees": 0
+      },
+      {
+        "name": "WheelFR",
+        "model": 2008,
+        "pivot_cm": [
+          157.21913146972656,
+          76.70771026611328,
+          32.93206787109375
+        ],
+        "axis": "pitch",
+        "open_degrees": 0
+      },
+      {
+        "name": "WheelRL",
+        "model": 2009,
+        "pivot_cm": [
+          -129.27455139160156,
+          -76.7076644897461,
+          32.93207931518555
+        ],
+        "axis": "pitch",
+        "open_degrees": 0
+      },
+      {
+        "name": "WheelRR",
+        "model": 2010,
+        "pivot_cm": [
+          -129.27455139160156,
+          76.70769500732422,
+          32.93207931518555
+        ],
+        "axis": "pitch",
+        "open_degrees": 0
+      },
+      {
+        "name": "SteeringWheel",
+        "model": 2011,
+        "pivot_cm": [
+          57.78642654418945,
+          -35.86313247680664,
+          82.44634246826172
+        ],
+        "axis": "yaw",
+        "open_degrees": 0
+      }
+    ],
+    "driver_eye_cm": [
+      -10.837905883789062,
+      -36.0,
+      111.9930648803711
+    ]
+  },
+  "placements": [
+    {
+      "id": "CAR31_001",
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "at": [
+        169.315,
+        238.0,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_SV01_135-01",
+      "role": "ambulance",
+      "region33": [
+        163,
+        230,
+        9,
+        16
+      ],
+      "zone33": "SV01",
+      "garage33": true,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_002",
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "at": [
+        191.49,
+        239.48,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_SV03_135-01",
+      "role": "ambulance",
+      "region33": [
+        183,
+        230,
+        11,
+        16
+      ],
+      "zone33": "SV03",
+      "garage33": true,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_003",
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "at": [
+        222.415,
+        239.48,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_SV05_135-01",
+      "role": "ambulance",
+      "region33": [
+        215,
+        230,
+        9,
+        16
+      ],
+      "zone33": "SV05",
+      "garage33": true,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_004",
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "at": [
+        69.33,
+        -13.0,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S02_135-01",
+      "role": "ambulance",
+      "region33": [
+        60,
+        -24,
+        28,
+        22
+      ],
+      "zone33": "S02",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_005",
+      "slug": "shvan-92-ambulance-low-poly-model",
+      "at": [
+        78.67,
+        -13.0,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S02_135-02",
+      "role": "ambulance",
+      "region33": [
+        60,
+        -24,
+        28,
+        22
+      ],
+      "zone33": "S02",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_006",
+      "slug": "gmc-savana-2003",
+      "at": [
+        109.75,
+        -12.25,
+        0.0005
+      ],
+      "yaw": 180,
+      "replaces": "PROP6_S07_138-01",
+      "role": "service",
+      "region33": [
+        100,
+        -24,
+        24,
+        20
+      ],
+      "zone33": "S07",
+      "garage33": false,
+      "preferred_yaw33": 180
+    },
+    {
+      "id": "CAR31_007",
+      "slug": "tata-signa-cargo-truck-low-poly-game-ready-pbr",
+      "at": [
+        112.25,
+        -96.0,
+        -0.00619511
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S09_138-01",
+      "role": "service",
+      "region33": [
+        110,
+        -110,
+        32,
+        24
+      ],
+      "zone33": "S09",
+      "garage33": false,
+      "preferred_yaw33": 90,
+      "support_bottom_cm33": 0.669511079788208
+    },
+    {
+      "id": "CAR31_008",
+      "slug": "volkswagen-crafter",
+      "at": [
+        127.7,
+        -170.0,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S12_136-01",
+      "role": "service",
+      "region33": [
+        110,
+        -182,
+        32,
+        24
+      ],
+      "zone33": "S12",
+      "garage33": true,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_009",
+      "slug": "auto-mezzanine-deck-trailer",
+      "at": [
+        130.25,
+        -95.25,
+        0.0005
+      ],
+      "yaw": 0,
+      "replaces": "",
+      "role": "cargo_trailer",
+      "region33": [
+        110,
+        -110,
+        32,
+        24
+      ],
+      "zone33": "S09",
+      "garage33": false,
+      "preferred_yaw33": 0
+    },
+    {
+      "id": "CAR31_010",
+      "slug": "gls-van",
+      "at": [
+        119.0,
+        -98.25,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "courier",
+      "region33": [
+        110,
+        -110,
+        32,
+        24
+      ],
+      "zone33": "S09",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_011",
+      "slug": "iveco-daily-van-2014",
+      "at": [
+        137.0,
+        -170.0,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "service",
+      "region33": [
+        110,
+        -182,
+        32,
+        24
+      ],
+      "zone33": "S12",
+      "garage33": true,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_012",
+      "slug": "2009-volkswagen-amarok-lp",
+      "at": [
+        -58.25,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S01_137-01",
+      "role": "pickup",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_013",
+      "slug": "2016-volkswagen-golf-gti-clubsport-mk7",
+      "at": [
+        -58.0,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "PROP6_S01_137-02",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_014",
+      "slug": "2020-volkswagen-polo-jetta-va3",
+      "at": [
+        -52.25,
+        -67.5,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S01_137-03",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_015",
+      "slug": "2022-toyota-camry-xv70-hybrid",
+      "at": [
+        -53.0,
+        -60.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "PROP6_S01_137-04",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_016",
+      "slug": "2023-bmw-m3-touring",
+      "at": [
+        -49.25,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "PROP6_S01_137-05",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_017",
+      "slug": "2023-toyota-gr-corolla",
+      "at": [
+        -48.4,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "PROP6_S01_137-06",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_018",
+      "slug": "2024-volkswagen-jetta",
+      "at": [
+        -43.25,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "CAMP14_sedan_01443",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_019",
+      "slug": "2025-bentley-continental-gt-speed",
+      "at": [
+        -43.6,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "CAMP14_sedan_01444",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_020",
+      "slug": "2025-bmw-330i-xdrive",
+      "at": [
+        -36.5,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "CAMP14_sedan_01445",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_021",
+      "slug": "2025-toyota-camry-xv80-hybrid",
+      "at": [
+        -38.75,
+        -60.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "CAMP14_sedan_01446",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_022",
+      "slug": "2025-toyota-fortuner-sigma-4-neo-drive",
+      "at": [
+        -34.25,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "CAMP14_sedan_01447",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_023",
+      "slug": "bmw-e34-stance-style",
+      "at": [
+        -34.0,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "CAMP14_sedan_01448",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_024",
+      "slug": "chevrolet-camaro-ss-race-car",
+      "at": [
+        -28.25,
+        -66.75,
+        0.00049996
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_025",
+      "slug": "chevrolet-caprice-police-car-94-free-asset",
+      "at": [
+        -29.2,
+        -61.0,
+        0.00049996
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "police",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_026",
+      "slug": "court-porsche-test",
+      "at": [
+        -24.5,
+        -67.5,
+        0.00050008
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_027",
+      "slug": "free-1975-porsche-911-930-turbo",
+      "at": [
+        -24.4,
+        -61.0,
+        0.00049998
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_028",
+      "slug": "kia-carnival",
+      "at": [
+        -18.5,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_029",
+      "slug": "kia-seltos-2022",
+      "at": [
+        -19.6,
+        -61.0,
+        0.00049996
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_030",
+      "slug": "mercedes-amg-g900-by-brabus",
+      "at": [
+        -15.5,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_031",
+      "slug": "mercedes-benz-c-class-w206-amg-line-2022",
+      "at": [
+        -14.8,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_032",
+      "slug": "mercedes-benz-g-class-w263",
+      "at": [
+        -10.25,
+        -66.75,
+        0.00050004
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_033",
+      "slug": "mercedes-benz-maybach-2022",
+      "at": [
+        -10.0,
+        -61.0,
+        0.0005
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    },
+    {
+      "id": "CAR31_034",
+      "slug": "police-car-suv",
+      "at": [
+        -2.0,
+        -66.75,
+        0.0005
+      ],
+      "yaw": 90,
+      "replaces": "",
+      "role": "police",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": 90
+    },
+    {
+      "id": "CAR31_035",
+      "slug": "toyots-camry-v45-2011",
+      "at": [
+        -5.75,
+        -60.75,
+        0.00049996
+      ],
+      "yaw": -90,
+      "replaces": "",
+      "role": "passenger",
+      "region33": [
+        -62,
+        -80,
+        64,
+        34
+      ],
+      "zone33": "S01",
+      "garage33": false,
+      "preferred_yaw33": -90
+    }
+  ],
+  "captures": [
+    {
+      "id": "v31_2009-volkswagen-amarok-lp",
+      "at": [
+        -60.50504852294922,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -58.25,
+        -66.75,
+        0.8108247833251954
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_012",
+      "car33_initial": [
+        -58.25,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2016-volkswagen-golf-gti-clubsport-mk7",
+      "at": [
+        -55.8,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -58.0,
+        -61.0,
+        0.6587745503187179
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_013",
+      "car33_initial": [
+        -58.0,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2020-volkswagen-polo-jetta-va3",
+      "at": [
+        -54.45,
+        -63.5,
+        2.3005
+      ],
+      "target": [
+        -52.25,
+        -67.5,
+        0.7167853164672852
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_014",
+      "car33_initial": [
+        -52.25,
+        -67.5,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2022-toyota-camry-xv70-hybrid",
+      "at": [
+        -50.8,
+        -64.0,
+        2.3005
+      ],
+      "target": [
+        -53.0,
+        -60.0,
+        0.6485335083007813
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_015",
+      "car33_initial": [
+        -53.0,
+        -60.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2023-bmw-m3-touring",
+      "at": [
+        -51.45,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -49.25,
+        -66.75,
+        0.6598400192260743
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_016",
+      "car33_initial": [
+        -49.25,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2023-toyota-gr-corolla",
+      "at": [
+        -46.199999999999996,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -48.4,
+        -61.0,
+        0.6733661804199219
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_017",
+      "car33_initial": [
+        -48.4,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2024-volkswagen-jetta",
+      "at": [
+        -45.45,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -43.25,
+        -66.75,
+        0.6631689453125
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_018",
+      "car33_initial": [
+        -43.25,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2025-bentley-continental-gt-speed",
+      "at": [
+        -41.39600540161133,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -43.6,
+        -61.0,
+        0.6369953915774822
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_019",
+      "car33_initial": [
+        -43.6,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2025-bmw-330i-xdrive",
+      "at": [
+        -38.7,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -36.5,
+        -66.75,
+        0.6535101776123047
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_020",
+      "car33_initial": [
+        -36.5,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2025-toyota-camry-xv80-hybrid",
+      "at": [
+        -36.55,
+        -64.0,
+        2.3005
+      ],
+      "target": [
+        -38.75,
+        -60.0,
+        0.6503351287841797
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_021",
+      "car33_initial": [
+        -38.75,
+        -60.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_2025-toyota-fortuner-sigma-4-neo-drive",
+      "at": [
+        -36.45,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -34.25,
+        -66.75,
+        0.8138014602661132
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_022",
+      "car33_initial": [
+        -34.25,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_auto-mezzanine-deck-trailer",
+      "at": [
+        142.85,
+        -88.85,
+        5.2005
+      ],
+      "target": [
+        130.25,
+        -95.25,
+        1.8005
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_009",
+      "car33_initial": [
+        130.25,
+        -95.25,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_bmw-e34-stance-style",
+      "at": [
+        -31.8,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -34.0,
+        -61.0,
+        0.6433851776123046
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_023",
+      "car33_initial": [
+        -34.0,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_chevrolet-camaro-ss-race-car",
+      "at": [
+        -30.45,
+        -62.75,
+        2.30049996
+      ],
+      "target": [
+        -28.25,
+        -66.75,
+        0.5916207695550537
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_024",
+      "car33_initial": [
+        -28.25,
+        -66.75,
+        0.00049996
+      ]
+    },
+    {
+      "id": "v31_chevrolet-caprice-police-car-94-free-asset",
+      "at": [
+        -27.0,
+        -65.0,
+        2.30049996
+      ],
+      "target": [
+        -29.2,
+        -61.0,
+        0.7183522530145264
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_025",
+      "car33_initial": [
+        -29.2,
+        -61.0,
+        0.00049996
+      ]
+    },
+    {
+      "id": "v31_court-porsche-test",
+      "at": [
+        -26.7,
+        -63.5,
+        2.30050008
+      ],
+      "target": [
+        -24.5,
+        -67.5,
+        0.566829124342041
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_026",
+      "car33_initial": [
+        -24.5,
+        -67.5,
+        0.00050008
+      ]
+    },
+    {
+      "id": "v31_free-1975-porsche-911-930-turbo",
+      "at": [
+        -22.2,
+        -65.0,
+        2.3004999799999997
+      ],
+      "target": [
+        -24.4,
+        -61.0,
+        0.7398956470761108
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_027",
+      "car33_initial": [
+        -24.4,
+        -61.0,
+        0.00049998
+      ]
+    },
+    {
+      "id": "v31_gls-van",
+      "at": [
+        115.29918518066407,
+        -93.354,
+        2.608688102722168
+      ],
+      "target": [
+        119.0,
+        -98.25,
+        1.021095344543457
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_010",
+      "car33_initial": [
+        119.0,
+        -98.25,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_gmc-savana-2003",
+      "at": [
+        109.75,
+        -7.4,
+        2.5
+      ],
+      "target": [
+        109.75,
+        -12.25,
+        1
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_006",
+      "car33_initial": [
+        109.75,
+        -12.25,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_iveco-daily-van-2014",
+      "at": [
+        133.7567446899414,
+        -164.74171484375,
+        3.157397750854492
+      ],
+      "target": [
+        137.0,
+        -170.0,
+        1.2358078155517578
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_011",
+      "car33_initial": [
+        137.0,
+        -170.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_kia-carnival",
+      "at": [
+        -20.77761642456055,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -18.5,
+        -66.75,
+        0.8096545333862304
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_028",
+      "car33_initial": [
+        -18.5,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_kia-seltos-2022",
+      "at": [
+        -17.400000000000002,
+        -65.0,
+        2.30049996
+      ],
+      "target": [
+        -19.6,
+        -61.0,
+        0.7448847847528076
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_029",
+      "car33_initial": [
+        -19.6,
+        -61.0,
+        0.00049996
+      ]
+    },
+    {
+      "id": "v31_mercedes-amg-g900-by-brabus",
+      "at": [
+        -17.7,
+        -62.75,
+        2.3448582458496094
+      ],
+      "target": [
+        -15.5,
+        -66.75,
+        0.9178575744628906
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_030",
+      "car33_initial": [
+        -15.5,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_mercedes-benz-c-class-w206-amg-line-2022",
+      "at": [
+        -12.600000000000001,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -14.8,
+        -61.0,
+        0.6492136993408203
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_031",
+      "car33_initial": [
+        -14.8,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_mercedes-benz-g-class-w263",
+      "at": [
+        -12.45,
+        -62.75,
+        2.3176081237249755
+      ],
+      "target": [
+        -10.25,
+        -66.75,
+        0.9071945075445558
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_032",
+      "car33_initial": [
+        -10.25,
+        -66.75,
+        0.00050004
+      ]
+    },
+    {
+      "id": "v31_mercedes-benz-maybach-2022",
+      "at": [
+        -7.8,
+        -65.0,
+        2.3005
+      ],
+      "target": [
+        -10.0,
+        -61.0,
+        0.6890549316573887
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_033",
+      "car33_initial": [
+        -10.0,
+        -61.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_police-car-suv",
+      "at": [
+        -4.223626403808594,
+        -62.75,
+        2.3005
+      ],
+      "target": [
+        -2.0,
+        -66.75,
+        0.7690755691528319
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_034",
+      "car33_initial": [
+        -2.0,
+        -66.75,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_shvan-92-ambulance-low-poly-model",
+      "at": [
+        166.96627891540527,
+        242.0,
+        2.6008922271728516
+      ],
+      "target": [
+        169.315,
+        238.0,
+        1.0180447845458984
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_001",
+      "car33_initial": [
+        169.315,
+        238.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_tata-signa-cargo-truck-low-poly-game-ready-pbr",
+      "at": [
+        117,
+        -90,
+        2.6933048900000003
+      ],
+      "target": [
+        112.25,
+        -96,
+        1.5933048900000002
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_007",
+      "car33_initial": [
+        112.25,
+        -96.0,
+        -0.00619511
+      ]
+    },
+    {
+      "id": "v31_toyots-camry-v45-2011",
+      "at": [
+        -3.55,
+        -64.75,
+        2.30049996
+      ],
+      "target": [
+        -5.75,
+        -60.75,
+        0.6881994515008545
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_035",
+      "car33_initial": [
+        -5.75,
+        -60.75,
+        0.00049996
+      ]
+    },
+    {
+      "id": "v31_volkswagen-crafter",
+      "at": [
+        125.5,
+        -165.95060710449218,
+        2.309980270385742
+      ],
+      "target": [
+        127.7,
+        -170.0,
+        0.9042096710205079
+      ],
+      "horror_mode": false,
+      "car33_id": "CAR31_008",
+      "car33_initial": [
+        127.7,
+        -170.0,
+        0.0005
+      ]
+    },
+    {
+      "id": "v31_parking_horror",
+      "at": [
+        -49,
+        -62,
+        2.5
+      ],
+      "target": [
+        -42,
+        -70,
+        1.1
+      ],
+      "horror_mode": true
+    },
+    {
+      "id": "v31_road33_paint",
+      "at": [
+        -53,
+        -56.5,
+        0.5
+      ],
+      "target": [
+        -52.8,
+        -59,
+        0.005
+      ]
+    },
+    {
+      "id": "v31_road33_parking",
+      "at": [
+        -60,
+        -57,
+        2.7
+      ],
+      "target": [
+        -25,
+        -65,
+        1
+      ]
+    },
+    {
+      "id": "v31_road33_service",
+      "at": [
+        140,
+        -90,
+        2.7
+      ],
+      "target": [
+        130,
+        -95.25,
+        1.6
+      ]
+    }
+  ],
+  "controls": {
+    "F": "Enter/exit driver seat or toggle nearest other panel",
+    "Y": "Toggle nearest door, hood or trunk",
+    "mouse": "Look around while seated"
+  },
+  "notes": [
+    "GLS source was RGB points, not a mesh; reconstructed outer surface retains supplied colors.",
+    "Static vehicles retain original configurations; only hero W212 parts are interactive.",
+    "A vehicle interior viewpoint is used; no seated human animation or free driving is supplied."
+  ],
+  "revision": 33,
+  "surface_fit33": true,
+  "glass_policy33": "Opaque black exterior glazing for incomplete cabins; hero retains transparent original glazing.",
+  "quality_cap33": 4096,
+  "tint_materials33": {
+    "VC31_8d052726fe5312ca": "Glass",
+    "VC31_6dfe4f4cddaf2b2c": "GLASS_WINDOW",
+    "VC31_81fb0b120b64f75d": "Windows",
+    "VC31_4f1e60eac3398c17": "Glass_Ref",
+    "VC31_8502ff0b88c41249": "BMW_M3TouringRewardRecycled_2022Window_Material",
+    "VC31_1e43c4013db80c2e": "glass",
+    "VC31_8679bd3e8509a216": "glass 2",
+    "VC31_bb60a4ad674ec312": "window black",
+    "VC31_1393d057acc477d2": "Frost_Glass",
+    "VC31_b3f17134e25ac097": "D_glass",
+    "VC31_0d66c69f3f593b29": "GlassMtl",
+    "VC31_540753265c13ac73": "bmw:car_glass1",
+    "VC31_b591da35c3834748": "Color_glass",
+    "VC31_277d893fac35cc16": "Int_Glass",
+    "VC31_e9df5de1ac32ab9f": "AM98_010_glass",
+    "VC31_90a843e45f9e73a4": "Windows_MAT",
+    "VC31_b206facefca09a07": "glass",
+    "VC31_0b65995a6aedf655": "window",
+    "VC31_ebcee092afbfbe7f": "glass",
+    "VC31_37b053cd3e80519c": "Window",
+    "VC31_060ee0fe5fa06c01": "Window",
+    "VC31_5eefc460cba1a4dc": "Side_Glass_AO [143560957]",
+    "VC31_53e9f03b5b7cfa21": "Front_Glass_AO [143560866]",
+    "VC31_96e93000500931c5": "glass [143720358] (UV-limited)",
+    "VC31_eaf8d53b4c6d28ac": "ExtWindowsGlass_0",
+    "VC31_b592772e765ac167": "ExtWindowsGlass_1",
+    "VC31_32074d1cfc0cdd1f": "ExtWindowsGlass",
+    "VC31_909658cdf962cdcf": "IntWindows",
+    "VC31_f8ef79150c88edee": "Glass",
+    "VC31_f5e6a7f56a9820a5": "Glass",
+    "VC31_fa25edd68b558c97": "Glass",
+    "VC31_cd19082fdb4fdab5": "mat_glass",
+    "VC31_3a83bada014e2dcd": "glass__spec_trans_",
+    "VC31_fe1c249e7cfb69d7": "glassMate",
+    "VC31_aed598c50870e3d8": "windowShape",
+    "VC31_343a90806f141ad5": "glassTint"
+  },
+  "placement_policy33": "Verified clear placements baked into data; collision and paved support revalidated at level build."
+}

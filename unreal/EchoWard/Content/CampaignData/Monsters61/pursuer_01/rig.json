@@ -1,0 +1,29 @@
+{
+  "id": "pursuer_01",
+  "species": "pursuer",
+  "height_cm": 245.0,
+  "vertex_count": 6220,
+  "triangles": 7676,
+  "bones": [
+    "hips",
+    "chest",
+    "neck",
+    "head",
+    "armL",
+    "forearmL",
+    "handL",
+    "armR",
+    "forearmR",
+    "handR",
+    "thighL",
+    "shinL",
+    "footL",
+    "thighR",
+    "shinR",
+    "footR"
+  ],
+  "stride_cm": 75.95,
+  "period": 0.93,
+  "source": "D:\\Projects\\ECHO\\assets\\models\\creatures_custom\\v60\\pursuer_01\\local\\pursuer_01.glb",
+  "texture_px": 2048
+}
