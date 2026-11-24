@@ -11,12 +11,19 @@
 <p align="center"><strong>QAISAR STUDIO · «Қайсар»</strong><br>Survival horror · Unreal Engine 5.8 · Бета 0.2.0-b117</p>
 
 <p align="center">
-  <a href="#об-игре">Об игре</a> ·
+    <a href="#скачать-игру">Скачать игру</a> ·
+<a href="#об-игре">Об игре</a> ·
   <a href="#видео">Видео</a> ·
   <a href="#исходники">Исходники</a> ·
   <a href="#запуск-проекта-unreal-на-windows">Запуск</a> ·
   <a href="#демонстрация-ии">Демонстрация ИИ</a>
 </p>
+
+## Скачать игру
+
+[Скачать EXO 0.2.0-b117 для Windows (ZIP, 4,93 ГБ)](https://drive.google.com/file/d/12pBU0-EM5sDaYZOcDBNvwihbRHvaVC0t/view?usp=sharing)
+
+Распакуйте архив целиком и запустите `EXO.exe` из распакованной папки. Если Windows запросит Visual C++ x64, установите `Prerequisites\vc_redist.x64.exe`.
 
 ## Об игре
 
